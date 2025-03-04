@@ -28,6 +28,19 @@ export const useStyles = makeStyles((theme: Theme) =>
             [theme.breakpoints.up('md')]: {
                 display: 'inherit',
               },
+        },
+        instructionModal: {
+            position: 'fixed',  
+            top: '50%',         
+            left: '50%',        
+            transform: 'translate(-50%, -50%)', 
+            width: 1200,        
+            height: '70%',      
+            backgroundColor: '#fcf8e8',
+            boxShadow: theme.shadows[5],
+            padding: theme.spacing(2, 4, 3),
+            overflow: 'auto',   
+            zIndex: 1000, 
         }
     })
 );

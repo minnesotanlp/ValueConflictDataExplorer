@@ -23,11 +23,22 @@ export const setAllTags = (newTags) => {
     allTags = newTags;
 };
 
-
 export interface Paper {
     name: string;
     venue: string;
     year: number;
+    scenarioID: number;
+    input_data: {
+        conflict_pair1: {
+            [key: string]: string;
+        };
+        conflict_pair2: {
+            [key: string]: string;
+        };
+        conflict_pair3: {
+            [key: string]: string;
+        }
+    };
     [key: string]: any;
     url?: string;
 }
@@ -84,7 +95,7 @@ export default function App() {
 
         papers.forEach(paper => {
             Object.keys(paper).forEach(key => {
-                if (!['name', 'venue', 'year', 'url', 'imagePath', 'others'].includes(key)) {
+                if (!['name', 'scenarioID', 'input_data', 'venue', 'year', 'url', 'imagePath', 'others'].includes(key)) {
                     if (!initialTags[key]) {
                         initialTags[key] = new Set();
                     }
@@ -121,7 +132,7 @@ export default function App() {
         }, {})
 
         const countUniqueTags = (papers) => {
-            const ignoreKeys = ['name', 'venue', 'year', 'url', 'imagePath', 'others'];
+            const ignoreKeys = ['name', 'scenarioID', 'input_data', 'venue', 'year', 'url', 'imagePath', 'others'];
             return papers.reduce((tagCounts, paper) => {
                 Object.keys(paper).forEach(key => {
                     if (!ignoreKeys.includes(key)) {

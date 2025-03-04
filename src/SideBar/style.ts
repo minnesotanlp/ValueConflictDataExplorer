@@ -73,12 +73,18 @@ export const useStyles = makeStyles((theme: Theme) =>
         formControl: {
             margin: theme.spacing(1),
             minWidth: 120,
-          },
-          selectEmpty: {
+        },
+        selectEmpty: {
             marginTop: theme.spacing(2),
-          },
-          MLTag: {
-              color: 'white'
-          }
+        },
+        MLTag: {
+            color: 'blue'
+        },
+    
+        tooltip: {
+            fontSize: "1.2em", 
+            color: "#fafafa",  
+            backgroundColor: "#333333",
+        }
     })
 );

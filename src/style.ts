@@ -4,7 +4,6 @@ import { orange, teal} from "@material-ui/core/colors";
 
 export const useStyles = makeStyles((theme: Theme) =>
     createStyles({
-
         root: {
             display: "flex",
         },
@@ -19,7 +18,7 @@ export const theme = createMuiTheme({
     overrides: {
         MuiChip: {
             colorSecondary: {
-                color: "white"
+                color: "blue"
             }
         }
     }

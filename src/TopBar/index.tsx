@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect} from "react";
 import {
     Typography,
     Toolbar,
@@ -6,6 +6,11 @@ import {
     AppBar,
     Badge,
     InputBase,
+    Modal,
+    Box,
+    Checkbox,
+    FormControlLabel, 
+    Button
 } from "@material-ui/core";
 import {
     // AccountCircle,
@@ -14,6 +19,7 @@ import {
     Menu as MenuIcon,
     // Search as SearchIcon,
     CloudUpload,
+    Announcement,
     Description,
     Home
 } from "@material-ui/icons";
@@ -43,47 +49,162 @@ export function TopBar(props: Props) {
     const classes = useStyles();
     const { title, preprint, github, topTheme, onProfileMenuOpen, handleDrawerToggle } = props;
 
+    const [modalOpen, setModalOpen] = useState(true); // Modal opens by default every time
+    const [isChecked, setIsChecked] = useState(false);
+
+    // // Load the checkbox state from localStorage to determine if it should be shown
+    // useEffect(() => {
+    //     const instructionSeen = localStorage.getItem('instructionSeen') === 'true';
+    //     setIsChecked(instructionSeen);
+    // }, []);
+
+    // const handleModalClose = () => {
+    //     setModalOpen(false);
+    // };
+
+    // const handleCheckboxChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    //     localStorage.setItem('instructionSeen', 'true');
+    //     setIsChecked(event.target.checked);
+    // };
+
+    const handleModalClose = () => {
+        if (isChecked) {
+            setModalOpen(false);
+        }
+        // setModalOpen(false);
+    };
+
+    const handleCheckboxChange = (event) => {
+        // setIsChecked(event.target.checked);
+        // if (event.target.checked) {
+        //     // Optionally close the modal when the checkbox is checked
+        //     setModalOpen(false);
+        // }
+        setIsChecked(event.target.checked);
+    };
+
+    // Prevent the modal from closing if the checkbox is not checked
+    const handleBackdropClick = (event, reason) => {
+        // // Do nothing if the checkbox is not checked
+        // if (!isChecked) {
+        //     event.preventDefault();
+        //     return;
+        // }
+        // // Otherwise, allow the modal to close
+        // setModalOpen(false);
+        if (reason === 'backdropClick' && !isChecked) {
+            event.preventDefault();
+        } else {
+            handleModalClose();
+        }
+    };
+
     return (
-        <AppBar position="fixed" className={classes.appBar} style={topThemeBackground(topTheme)}
-        >
-            <Toolbar>
-                <IconButton
-                    color="inherit"
-                    aria-label="open drawer"
-                    edge="start"
-                    onClick={handleDrawerToggle}
-                    className={classes.menuButton}
+        <React.Fragment>
+            <AppBar position="fixed" className={classes.appBar} style={topThemeBackground(topTheme)}
+            >
+                <Toolbar>
+                    <IconButton
+                        color="inherit"
+                        aria-label="open drawer"
+                        edge="start"
+                        onClick={handleDrawerToggle}
+                        className={classes.menuButton}
+                    >
+                        <MenuIcon />
+                    </IconButton>
+                    <Typography variant="h6" noWrap className={classes.title}>
+                        {title}
+                    </Typography>
+
+                    <div className={classes.sectionDesktop}>
+                        <IconButton
+                            edge="end"
+                            aria-label="link to instruction page"
+                            aria-haspopup="true"
+                            onClick={() => setModalOpen(true)}
+                            color="inherit"
+                            disabled={!github}
+                        >
+                            <Announcement /> <span style={{ fontSize: '12px' }} className={classes.iconName}>{' '}Instruction </span>
+                        </IconButton>
+
+                        <IconButton
+                            edge="end"
+                            aria-label="link to arxiv paper"
+                            aria-haspopup="true"
+                            onClick={() => window.open(preprint)}
+                            color="inherit"
+                            disabled={!preprint}
+                        >
+                            <Description /> <span style={{ fontSize: '12px' }} className={classes.iconName}>{' '}Preprint </span>
+                        </IconButton>
+                        <IconButton
+                            edge="end"
+                            aria-label="link to github homepage"
+                            aria-haspopup="true"
+                            onClick={() => window.open(github)}
+                            color="inherit"
+                            disabled={!github}
+                        >
+                            <Home /> <span style={{ fontSize: '12px' }} className={classes.iconName}>{' '}Homepage </span>
+                        </IconButton>
+
+                    </div>
+                </Toolbar>
+            </AppBar>
+
+            <Modal
+                open={modalOpen}
+                onClose={handleBackdropClick}
+                aria-labelledby="instruction-modal-title"
+                aria-describedby="instruction-modal-description"
+                style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+            >
+                <Box className={classes.instructionModal} 
+                    // style={{
+                        // position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)',
+                        // width: 400, bgcolor: 'background.paper', border: '2px solid #000',
+                        // boxShadow: 24, p: 4,
+                    // }}
                 >
-                    <MenuIcon />
-                </IconButton>
-                <Typography variant="h6" noWrap className={classes.title}>
-                    {title}
-                </Typography>
-
-                <div className={classes.sectionDesktop}>
-                    <IconButton
-                        edge="end"
-                        aria-label="link to arxiv paper"
-                        aria-haspopup="true"
-                        onClick={() => window.open(preprint)}
-                        color="inherit"
-                        disabled={!preprint}
-                    >
-                        <Description /> <span style={{ fontSize: '12px' }} className={classes.iconName}>{' '}Preprint </span>
-                    </IconButton>
-                    <IconButton
-                        edge="end"
-                        aria-label="link to github homepage"
-                        aria-haspopup="true"
-                        onClick={() => window.open(github)}
-                        color="inherit"
-                        disabled={!github}
-                    >
-                        <Home /> <span style={{ fontSize: '12px' }} className={classes.iconName}>{' '}Homepage </span>
-                    </IconButton>
-
-                </div>
-            </Toolbar>
-        </AppBar>
+                    <Typography id="instruction-modal-title" variant="h6" component="h2">
+                        *Instructions
+                    </Typography>
+                    <Typography id="instruction-modal-description">
+                        <ul>
+                            <li>We are interested in understanding how humans resolve internal conflicts and how human values play a role in conflict resolution.</li>
+                            <li>Please read the instructions and click on the two checkbox.</li>
+                            <li>For your first sub task - you will be presented with a scenario (in which a human value conflict is experienced) and three conflicting value pairs based on the scenario.
+                                <ol>
+                                    <li><strong>For each scenario</strong>, The "Topic" section contains the main conclusion of the whole scene, and the "Background" section contains the background of the story in which the conclusion takes place. Please read the "Background" section carefully before doing the tasks!</li>
+                                    <li>Your first task is to rank the three conflicting human value pairs, with the first one being the one you think is most relevant to the given scenario.</li>
+                                    <li>After found the most relevant conflicting pair according to you, you will be asked to answer some followup questions related to the scenario itself and the first pair you chose.</li>
+                                    <li>On the right hand side in Pink, we display a brief definition and example for each human value. You can hover to learn more about each human value.</li>
+                                </ol>
+                            </li>
+                            <li>For the second sub-task - now that you have ranked the human value pairs, given the scenario and the most relevant conflicting value pair according to you.
+                                <ol>
+                                    <li>Your second task is to first read the explanation best for all six conflict resolution strategies, and select three most appropriate conflict resolution strategies from the six available options.</li>
+                                    <li>Rank them in order of Best Strategy, Second Best Strategy, and Third Best Strategy, and you will be asked to answer some followup questions.</li>
+                                    <li>On the right hand side in Green, we display a brief definition for each resolution strategy. You can hover to learn more about each conflict resolution strategy.</li>
+                                </ol>
+                            </li>
+                            <li>Everything underlined throughout the survey can be hovered over to see detailed explanations.</li>
+                        </ul>
+                        {/* <Typography component="div" style={{ fontWeight: 'bold' }}>
+                            PLEASE DO NOT USE CHATGPT OR OTHER SIMILAR AI TOOLS TO DO THE TASK WE WILL DISQUALIFY YOUR ANSWER
+                        </Typography> */}
+                    </Typography>
+                    <FormControlLabel
+                        control={<Checkbox checked={isChecked} onChange={handleCheckboxChange} />}
+                        label="I have read and understood the detailed instructions."
+                    />
+                    <Button onClick={handleModalClose} color="primary">
+                        Close
+                    </Button>
+                </Box>
+            </Modal>
+        </React.Fragment>
     );
 }
