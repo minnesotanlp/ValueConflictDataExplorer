@@ -87,7 +87,7 @@ export function Papers(props: Props) {
                 source: currentPaper.sankey["source"],
                 target: currentPaper.sankey["target"],
                 value: currentPaper.sankey["value"],
-                color: 'rgba(218, 214, 157, 0.5)'
+                color: 'rgba(238, 235, 195, 0.5)'
             }
         }];
     
@@ -243,7 +243,7 @@ export function Papers(props: Props) {
             >
                 <Fade in={modalOpen}>
                     <div className={classes.modal}>
-                        {/* <h1>Scenario: {currentPaper?.name}</h1> */}
+                        <h1>Scenario: {currentPaper?.name}</h1>
 
                         {/* <Typography variant="h4">Scenario: {currentPaper?.name}</Typography> */}
                         {view_sankey(currentPaper)}
