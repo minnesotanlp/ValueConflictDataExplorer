@@ -27,17 +27,53 @@ export interface Paper {
     name: string;
     venue: string;
     year: number;
-    scenarioID: number;
-    input_data: {
-        conflict_pair1: {
-            [key: string]: string;
-        };
-        conflict_pair2: {
-            [key: string]: string;
-        };
-        conflict_pair3: {
-            [key: string]: string;
-        }
+    // scenarioID: number;
+    annotator1: {
+        pair: string;
+        pair_factors: string[];
+        social_context: string;
+        time_urgency: string;
+        level_of_consequence: string;
+        level_of_consequence_reason: string;
+        value_change_factor: string;
+        best_Strategy: string;
+        strategy_reason: string;
+        potential_cause: string;
+        strategy_adoptable: string
+    }; 
+    annotator2: {
+        pair: string;
+        pair_factors: string[];
+        social_context: string;
+        time_urgency: string;
+        level_of_consequence: string;
+        level_of_consequence_reason: string;
+        value_change_factor: string;
+        best_Strategy: string;
+        strategy_reason: string;
+        potential_cause: string;
+        strategy_adoptable: string
+    };  
+    annotator3: {
+        pair: string;
+        pair_factors: string[];
+        social_context: string;
+        time_urgency: string;
+        level_of_consequence: string;
+        level_of_consequence_reason: string;
+        value_change_factor: string;
+        best_Strategy: string;
+        strategy_reason: string;
+        potential_cause: string;
+        strategy_adoptable: string
+    };  
+    labels:{
+        one_d_labels: string[];
+    }
+    sankey: {
+        source: number[];
+        target: number[];
+        value: number[];
     };
     [key: string]: any;
     url?: string;
@@ -95,7 +131,7 @@ export default function App() {
 
         papers.forEach(paper => {
             Object.keys(paper).forEach(key => {
-                if (!['name', 'scenarioID', 'input_data', 'venue', 'year', 'url', 'imagePath', 'others'].includes(key)) {
+                if (!['name', 'annotator1', 'annotator2', 'annotator3', 'labels', 'sankey', 'venue', 'year', 'url', 'imagePath', 'others'].includes(key)) {
                     if (!initialTags[key]) {
                         initialTags[key] = new Set();
                     }
@@ -132,7 +168,7 @@ export default function App() {
         }, {})
 
         const countUniqueTags = (papers) => {
-            const ignoreKeys = ['name', 'scenarioID', 'input_data', 'venue', 'year', 'url', 'imagePath', 'others'];
+            const ignoreKeys = ['name', 'annotator1', , 'annotator2', 'annotator3', 'labels', 'sankey', 'venue', 'year', 'url', 'imagePath', 'others'];
             return papers.reduce((tagCounts, paper) => {
                 Object.keys(paper).forEach(key => {
                     if (!ignoreKeys.includes(key)) {

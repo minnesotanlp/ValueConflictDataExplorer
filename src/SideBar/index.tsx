@@ -169,6 +169,7 @@ export function SideBar(props: Props) {
         <Typography variant="subtitle2" className={classes.filterTitle}>
             Keywords search:
         </Typography>
+
         <div className={classes.search}>
             <div className={classes.searchIcon}>
                 <SearchIcon />
@@ -191,6 +192,14 @@ export function SideBar(props: Props) {
             tagCounts={tagCounts}
         />
         <Divider /> */}
+        <Typography className={classes.conflictInstruction}>
+            "Intrapersonal (conflicts within the individual): View as a first person perspective"<br />
+            "Interpersonal (conflicts between individuals): View as a third person perspective"<br />
+            "Group (conflicts within or between groups): View as a third person perspective"
+        </Typography>
+
+        <Divider />
+
         {Object.keys(tagFilters).map((typeName) => renderFilters(typeName))}
 
         <Divider />

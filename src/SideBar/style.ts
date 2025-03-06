@@ -34,7 +34,7 @@ export const useStyles = makeStyles((theme: Theme) =>
             marginRight: theme.spacing(2),
             marginLeft: 0,
             width: '100%',
-            margin: '12px 0'
+            margin: '8px 0'
         },
         searchIcon: {
             padding: theme.spacing(0, 1),
@@ -85,6 +85,13 @@ export const useStyles = makeStyles((theme: Theme) =>
             fontSize: "1.2em", 
             color: "#fafafa",  
             backgroundColor: "#333333",
+        },
+
+        conflictInstruction: {
+            color: '#ad3e48',
+            margin: '12px 0',
+            fontSize: '16px',
+            fontWeight: 'bold'
         }
     })
 );

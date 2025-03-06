@@ -49,7 +49,7 @@ export function TopBar(props: Props) {
     const classes = useStyles();
     const { title, preprint, github, topTheme, onProfileMenuOpen, handleDrawerToggle } = props;
 
-    const [modalOpen, setModalOpen] = useState(true); // Modal opens by default every time
+    const [modalOpen, setModalOpen] = useState(false); // Modal opens by default every time     '''change back to true later'''
     const [isChecked, setIsChecked] = useState(false);
 
     // // Load the checkbox state from localStorage to determine if it should be shown
@@ -91,7 +91,7 @@ export function TopBar(props: Props) {
         //     return;
         // }
         // // Otherwise, allow the modal to close
-        // setModalOpen(false);
+        setModalOpen(false);   // comment later
         if (reason === 'backdropClick' && !isChecked) {
             event.preventDefault();
         } else {
@@ -122,8 +122,8 @@ export function TopBar(props: Props) {
                             edge="end"
                             aria-label="link to instruction page"
                             aria-haspopup="true"
-                            onClick={() => setModalOpen(true)}
-                            color="inherit"
+                            onClick={() => setModalOpen(true)}    
+                            color="inherit" 
                             disabled={!github}
                         >
                             <Announcement /> <span style={{ fontSize: '12px' }} className={classes.iconName}>{' '}Instruction </span>

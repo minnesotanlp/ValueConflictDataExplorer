@@ -19,9 +19,7 @@ export const useStyles = makeStyles((theme: Theme) =>
         },
         card: {
             width: 1500,
-            height: 150,
-            // minHeight: 180,
-            // maxHeight: 400,
+            // height: 250,
         },
         media: {
             height: 100,
@@ -55,7 +53,7 @@ export const useStyles = makeStyles((theme: Theme) =>
             }
         },
         tags: {
-            marginTop: 8,
+            marginTop: 40,
             display: 'flex',
             '& > *': {
                 margin: theme.spacing(0.5),
@@ -83,7 +81,7 @@ export const useStyles = makeStyles((theme: Theme) =>
             top: '50%',         
             left: '50%',        
             transform: 'translate(-50%, -50%)', 
-            width: 1200,        
+            width: 1600,        
             height: '80%',      
             backgroundColor: theme.palette.background.paper,
             boxShadow: theme.shadows[5],
@@ -132,6 +130,32 @@ export const useStyles = makeStyles((theme: Theme) =>
         legend: {
             fontWeight: 'bold', 
         },
+
+        buttonGroup: {
+            paddingTop: '20px',
+            display: 'flex', 
+        },
+        button: {
+            marginTop: 8,
+            marginRight: 20,
+            color: 'grey', 
+            backgroundColor: '#f5f0da', 
+            borderRadius: '20px',
+            '&:hover': { 
+                backgroundColor: '#f5edc9',
+                boxShadow: '0px 2px 10px rgba(0,0,0,0.2)' 
+            },
+            '&:active': { 
+                backgroundColor: '#f5edc9',
+                boxShadow: '0px 5px 15px rgba(0,0,0,0.3)' 
+            }
+        },
+
+        // highlight: {
+        //     backgroundColor: '#f5db53',
+        //     boxShadow: '0px 2px 10px rgba(0,0,0,0.2)',
+        //     fontWeight: 'bold'
+        // }
         
     })
 );
