@@ -160,14 +160,12 @@ export function Papers(props: Props) {
 
     const handleAnnotatorClick = (paper, number, index) => {
         // setCurrentPaper(paper);
-        console.log("paper: ", paper);
         if (!paper) return null;
 
         const annotatorKey = `annotator${number}`;
         const annotatorData = paper[annotatorKey];
 
         if (!annotatorData) {
-            console.log("Annotator data not found");
             return "Data not found";
         }
 
@@ -207,7 +205,6 @@ export function Papers(props: Props) {
             })
             .join(' -> ');
         
-        // console.log("chain: ", chain);
         // setDisplayText(chain);
         setDisplayText(prevTexts => ({...prevTexts, [index]: chain}));
     

@@ -166,13 +166,12 @@ export function SideBar(props: Props) {
             </div>
         );
     };
-    console.log("tagfilters", tagFilters['Conflict Type']["Intrapersonal_Narrow"])
-
+    
     const drawer = <div className={classes.drawerContainer}>
         <Toolbar />
 
         <Typography variant="h5" className={classes.paperNumber}>
-            Scenarios: {paperNumber}
+            Scenarios: {paperNumber-1}
         </Typography>
 
         <Divider />
