@@ -35,9 +35,9 @@
                 "N/A"
             ],
             "Level_of_Consequence":[
-                "mild",
-                "medium",
-                "high"
+                "Mild",
+                "Medium",
+                "High"
             ],
             "annotator1": {
                 "pair": " ",
@@ -99,15 +99,15 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "family"
+                "Family"
             ],
             "Time Urgency": [
-                "implicit",
-                "na"
+                "Implicit",
+                "N/A"
             ],
             "Level_of_Consequence": [
-                "medium",
-                "high"
+                "Medium",
+                "High"
             ],
             "annotator1": {
                 "pair": "Achievement and Self-Direction",
@@ -115,15 +115,15 @@
                     "emotional_factors",
                     "social_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "implicit",
-                "level_of_consequence": "medium",
+                "social_context": "Family",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "If they don't achieve success in the business, the consequence is their father will be disappointed and lose his investment. If they try to go their own way, they don't have any plans or ideas yet.",
-                "value_change_factor": "Not available for this scenario",
+                "value_change_factor": "Value Change factors not available for this scenario",
                 "best_Strategy": "reframing",
                 "strategy_reason": "Reframing presents the best opportunity to put things in perspective and alleviate internal dilemmas and uncertainty. Prioritization then helps figure out which of the two options to focus most attention on. Then with goal setting small attainable goals can be set to follow up on the mental progress made.",
                 "potential_cause": "logical_reasoning",
-                "strategy_adoptable": "Not available for this scenario"
+                "strategy_adoptable": "Strategy adoptable factors not available for this scenario"
             },
             "annotator2": {
                 "pair": "Security and Stimulation",
@@ -131,15 +131,15 @@
                     "emotional_factors",
                     "social_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "na",
-                "level_of_consequence": "medium",
+                "social_context": "Family",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "I would be aware of their father's opinion and thought about the failing business. I  know that I will suffer from my father being disappointed in me.",
-                "value_change_factor": "Not available for this scenario",
+                "value_change_factor": "Value Change factors not available for this scenario",
                 "best_Strategy": "goal_setting",
                 "strategy_reason": "I think Goal Setting would be the best strategy. Being able to take a step back, do small accomplishments at first and then work to larger ones would really get the ball rolling on making progress in the business. Reframing the situation would also help by not thinking about the negative aspect of the problem, but seeing it in a different way. I also think that Prioritization of what can be done to help the business would be good. Also, prioritizing family opinions to be less would help change my thinking.",
                 "potential_cause": "logical_reasoning",
-                "strategy_adoptable": "Not available for this scenario"
+                "strategy_adoptable": "Strategy adoptable factors not available for this scenario"
             },
             "annotator3": {
                 "pair": "Security and Stimulation",
@@ -148,15 +148,15 @@
                     "social_factors",
                     "personal_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "implicit",
-                "level_of_consequence": "high",
+                "social_context": "Family",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "this person has two major problems here.  they are experiencing anxiety due to their job and additional pressure exists because of the involvement of their father. the person is trying to find contentment for themselves in additional to the father.  it's a very complicated situation.",
-                "value_change_factor": "Not available for this scenario",
+                "value_change_factor": "Value Change factors not available for this scenario",
                 "best_Strategy": "prioritization",
                 "strategy_reason": "this person has some serious thinking to do.  they are in a situation that is almost a crisis because it involves their career, finances, and their father.  the person needs to sit down and think about the path they are on and what is the most important thing that is creating the anxiety.  it's asking a lot to solve everything that's going on at the same time.  by using priority skills, the person can work on one problem at a time. these are serious issues and they need to be looked at carefully; one at a time,  and the question is \"where do I begin?\"  beginning with what the person perceives as the top problem will simplify things and put them in a better frame of mind.",
                 "potential_cause": "logical_reasoning",
-                "strategy_adoptable": "Not available for this scenario"
+                "strategy_adoptable": "Strategy adoptable factors not available for this scenario"
             },
             "labels": {
                 "one_d_labels": [
@@ -165,17 +165,17 @@
                     "emotional_factors",
                     "social_factors",
                     "personal_factors",
-                    "family",
-                    "implicit",
-                    "na",
-                    "medium",
-                    "high",
-                    "Not available for this scenario",
+                    "Family",
+                    "Implicit",
+                    "N/A",
+                    "Medium",
+                    "High",
+                    "Value Change factors not available for this scenario",
                     "reframing",
                     "goal_setting",
                     "prioritization",
                     "logical_reasoning",
-                    "Not available for this scenario"
+                    "Strategy adoptable factors not available for this scenario"
                 ]
             },
             "sankey": {
@@ -195,9 +195,9 @@
                     6,
                     8,
                     9,
-                    15,
-                    15,
-                    15,
+                    10,
+                    10,
+                    10,
                     11,
                     12,
                     13,
@@ -217,8 +217,8 @@
                     8,
                     8,
                     9,
-                    15,
-                    15,
+                    10,
+                    10,
                     11,
                     12,
                     13,
@@ -259,31 +259,31 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "stranger",
-                "workplace",
-                "other-the social context depends on the situation.  if the fraud is taking place at the place of employment, then it involves the workplace.  if it involves cheating the government by not paying taxes, then it involves a person's responsibility to be a good citizen,  agreeing to pay someone for a job can be considered fraud.  stealing from a friend can be considered fraud.  so it all depends on the situation."
+                "Stranger",
+                "Workplace",
+                "Other"
             ],
             "Time Urgency": [
-                "na",
-                "implicit"
+                "N/A",
+                "Implicit"
             ],
             "Level_of_Consequence": [
-                "high"
+                "High"
             ],
             "annotator1": {
                 "pair": "Stimulation and Universalism",
                 "pair_factors": [
                     "emotional_factors"
                 ],
-                "social_context": "stranger",
-                "time_urgency": "na",
-                "level_of_consequence": "high",
+                "social_context": "Stranger",
+                "time_urgency": "N/A",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "The consequences of this can be high. They desire stimulation by committing fraud which can hurt others, and it can hurt themselves by putting them in prison for a long time.",
-                "value_change_factor": "Not available for this scenario",
+                "value_change_factor": "Value Change factors not available for this scenario",
                 "best_Strategy": "behavioral_experimentation",
                 "strategy_reason": "With behavioral experimentation the person can try new things to satisfy their desire for stimulation thus taking the thrill out of the illegal act. Then they can try to balance their desire to do something exciting with thinking about how it affects everyone else which can also help to steer them away from doing something illegal. Finally, now they can reframe their views to understand why fraud is not a good way to get stimulation.",
                 "potential_cause": "emotional_concerns",
-                "strategy_adoptable": "Not available for this scenario"
+                "strategy_adoptable": "Strategy adoptable factors not available for this scenario"
             },
             "annotator2": {
                 "pair": "Achievement and Benevolence",
@@ -291,15 +291,15 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "workplace",
-                "time_urgency": "na",
-                "level_of_consequence": "high",
+                "social_context": "Workplace",
+                "time_urgency": "N/A",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "I know what I would be doing is bad and know the risks of the fraud they have done. I would be at a young age and that this path won't end well if I continue on the same path.",
-                "value_change_factor": "Not available for this scenario",
+                "value_change_factor": "Value Change factors not available for this scenario",
                 "best_Strategy": "behavioral_experimentation",
                 "strategy_reason": "I think that it would help to take a look at why I am doing this. Experimentation with my behavior might help me figure out what is going on and what would need to be changed to help. Self-Reflection would also be great to help with understanding why I felt the need to do so much fraud at such a young age. Having to set goals would really help with with being able to chase a more legal way of getting money. It would seem that a lack in direction, and having something to work for might help.",
                 "potential_cause": "logical_reasoning",
-                "strategy_adoptable": "Not available for this scenario"
+                "strategy_adoptable": "Strategy adoptable factors not available for this scenario"
             },
             "annotator3": {
                 "pair": "Achievement and Benevolence",
@@ -308,15 +308,15 @@
                     "moral_factors",
                     "personal_factors"
                 ],
-                "social_context": "other-the social context depends on the situation.  if the fraud is taking place at the place of employment, then it involves the workplace.  if it involves cheating the government by not paying taxes, then it involves a person's responsibility to be a good citizen,  agreeing to pay someone for a job can be considered fraud.  stealing from a friend can be considered fraud.  so it all depends on the situation.",
-                "time_urgency": "implicit",
-                "level_of_consequence": "high",
+                "social_context": "Other",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "if the person doesn't straighten out this situation they may find thmselves in prison.  this is clearly a case of a high level  of consequence.",
-                "value_change_factor": "Not available for this scenario",
+                "value_change_factor": "Value Change factors not available for this scenario",
                 "best_Strategy": "self_reflection",
                 "strategy_reason": "this person better do some serious self reflecting immediately. there is a lot on the line here.this is a young person who has a chance to turn things around. the decisions made will probably be significant for the rest of their life.  it's time for them to realize that they are on a very dangerous road but that they can change.",
                 "potential_cause": "both",
-                "strategy_adoptable": "Not available for this scenario"
+                "strategy_adoptable": "Strategy adoptable factors not available for this scenario"
             },
             "labels": {
                 "one_d_labels": [
@@ -326,19 +326,19 @@
                     "social_factors",
                     "moral_factors",
                     "personal_factors",
-                    "stranger",
-                    "workplace",
-                    "other-the social context depends on the situation.  if the fraud is taking place at the place of employment, then it involves the workplace.  if it involves cheating the government by not paying taxes, then it involves a person's responsibility to be a good citizen,  agreeing to pay someone for a job can be considered fraud.  stealing from a friend can be considered fraud.  so it all depends on the situation.",
-                    "na",
-                    "implicit",
-                    "high",
-                    "Not available for this scenario",
+                    "Stranger",
+                    "Workplace",
+                    "Other",
+                    "N/A",
+                    "Implicit",
+                    "High",
+                    "Value Change factors not available for this scenario",
                     "behavioral_experimentation",
                     "self_reflection",
                     "emotional_concerns",
                     "logical_reasoning",
                     "both",
-                    "Not available for this scenario"
+                    "Strategy adoptable factors not available for this scenario"
                 ]
             },
             "sankey": {
@@ -360,8 +360,8 @@
                     9,
                     10,
                     11,
-                    18,
-                    18,
+                    12,
+                    12,
                     13,
                     13,
                     14,
@@ -386,7 +386,7 @@
                     10,
                     11,
                     11,
-                    18,
+                    12,
                     13,
                     14,
                     15,
@@ -431,30 +431,30 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "family"
+                "Family"
             ],
             "Time Urgency": [
-                "implicit",
-                "explicit"
+                "Implicit",
+                "Explicit"
             ],
             "Level_of_Consequence": [
-                "medium",
-                "high"
+                "Medium",
+                "High"
             ],
             "annotator1": {
                 "pair": "Security and Tradition",
                 "pair_factors": [
                     "social_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "implicit",
-                "level_of_consequence": "medium",
+                "social_context": "Family",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "Not going to a sister's wedding despite it being traditional for sibling to go can cause a long rift and feeling insecure, but it's not life threatening.",
-                "value_change_factor": "Not available for this scenario",
+                "value_change_factor": "Value Change factors not available for this scenario",
                 "best_Strategy": "reframing",
                 "strategy_reason": "Reframing sounds best and healthiest because while it's hurtful to miss a sister's wedding, it's important to remember their own actions started this series of events and to look at the current events as opportunities. Self reflection is then important because this is obviously stemming from their own prior actions and so can help them understand why things are like this and accept things. Behavioral experimentation is then important because it sounds like they could try different actions and strategies to reconnect with their sister and understand the situation and move forward.",
                 "potential_cause": "emotional_concerns",
-                "strategy_adoptable": "Not available for this scenario"
+                "strategy_adoptable": "Strategy adoptable factors not available for this scenario"
             },
             "annotator2": {
                 "pair": "Benevolence and Universalism",
@@ -463,30 +463,30 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "implicit",
-                "level_of_consequence": "high",
+                "social_context": "Family",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "If I had worked on myself to be clean for my sister's wedding, I would be hurt and aware that I did all of the work for nothing. I know what the risks are for working hard for a year and would be considered about this.",
-                "value_change_factor": "Not available for this scenario",
+                "value_change_factor": "Value Change factors not available for this scenario",
                 "best_Strategy": "balancing",
                 "strategy_reason": "Being able to balance how I feel with how my sister might feel would be the best strategy. It would help the most with both of us to heal from the experience and work on moving forward. Being able to prioritize the situation and being able to work to heal this relationship would also be important to me. Clearly, my sister means a lot to me if I worked on being clean for a year to be able to go to a wedding. Reframing the situation in a way should be seen as a way to grow in being sober and it would help if I saw it as a challenge.",
                 "potential_cause": "emotional_concerns",
-                "strategy_adoptable": "Not available for this scenario"
+                "strategy_adoptable": "Strategy adoptable factors not available for this scenario"
             },
             "annotator3": {
                 "pair": "Security and Tradition",
                 "pair_factors": [
                     "emotional_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "explicit",
-                "level_of_consequence": "high",
+                "social_context": "Family",
+                "time_urgency": "Explicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "for a person to want to attend a sister's wedding and not getting invited is, in a sense, tragic.  family relations are so important and not to go to a sister's wedding, when the person WANTS to, is devastating.  it's a messy situation which has to be followed up on.",
-                "value_change_factor": "Not available for this scenario",
+                "value_change_factor": "Value Change factors not available for this scenario",
                 "best_Strategy": "goal_setting",
                 "strategy_reason": "it's one thing to be upset that they are not invited to the wedding but being upset is not going to solve this problem.  by setting some goals, things may actually work out.  for example, does the person mainly want to express their anger, or do they want to do what it takes to eventually get invited.  the person clearly wants to go to the wedding.  to achieve this, there are things that can be done such as writing a letter simply saying that they have straightened out their life and would really feel bad if they are not at the wedding.  the sister may not even realize that this is important to the person who has not received an attention.  goal setting will help the person figure out how to handle this in a mature way realizing that there are two sides to this.",
                 "potential_cause": "logical_reasoning",
-                "strategy_adoptable": "Not available for this scenario"
+                "strategy_adoptable": "Strategy adoptable factors not available for this scenario"
             },
             "labels": {
                 "one_d_labels": [
@@ -495,18 +495,18 @@
                     "social_factors",
                     "emotional_factors",
                     "moral_factors",
-                    "family",
-                    "implicit",
-                    "explicit",
-                    "medium",
-                    "high",
-                    "Not available for this scenario",
+                    "Family",
+                    "Implicit",
+                    "Explicit",
+                    "Medium",
+                    "High",
+                    "Value Change factors not available for this scenario",
                     "reframing",
                     "balancing",
                     "goal_setting",
                     "emotional_concerns",
                     "logical_reasoning",
-                    "Not available for this scenario"
+                    "Strategy adoptable factors not available for this scenario"
                 ]
             },
             "sankey": {
@@ -526,9 +526,9 @@
                     7,
                     8,
                     9,
-                    16,
-                    16,
-                    16,
+                    10,
+                    10,
+                    10,
                     11,
                     12,
                     13,
@@ -549,8 +549,8 @@
                     8,
                     9,
                     9,
-                    16,
-                    16,
+                    10,
+                    10,
                     11,
                     12,
                     13,
@@ -593,79 +593,79 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "stranger",
-                "other-Personal/Self",
-                "family"
+                "Stranger",
+                "Other",
+                "Family"
             ],
             "Time Urgency": [
-                "na",
-                "implicit"
+                "N/A",
+                "Implicit"
             ],
             "Level_of_Consequence": [
-                "high"
+                "High"
             ],
             "annotator1": {
                 "pair": "Conformity and Self-Direction",
                 "pair_factors": [
                     "personal_factors"
                 ],
-                "social_context": "stranger",
-                "time_urgency": "na",
-                "level_of_consequence": "high",
+                "social_context": "Stranger",
+                "time_urgency": "N/A",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "If they aren't able to get these things they will not be able to do these things that they consider normal for one to do in life. This deals with seizures.",
-                "value_change_factor": "Not available for this scenario",
+                "value_change_factor": "Value Change factors not available for this scenario",
                 "best_Strategy": "self_reflection",
                 "strategy_reason": "I think this shows the importance of driving for them and how they seek these things in order to achieve independence while still following safety concerns of society.",
                 "potential_cause": "logical_reasoning",
-                "strategy_adoptable": "Not available for this scenario"
+                "strategy_adoptable": "Strategy adoptable factors not available for this scenario"
             },
             "annotator2": {
                 "pair": "Conformity and Self-Direction",
                 "pair_factors": [
                     "personal_factors"
                 ],
-                "social_context": "other-Personal/Self",
-                "time_urgency": "na",
-                "level_of_consequence": "high",
+                "social_context": "Other",
+                "time_urgency": "N/A",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "The person wants the dog and ability to drive to improve their own life, ability and independence. Without these things they will probably experience some hardships that will affect them and being able to have both will be very difficult to achieve if they suffer from seizures and more responsibility. But it can also put other at risk on the roadway.",
-                "value_change_factor": "Not available for this scenario",
+                "value_change_factor": "Value Change factors not available for this scenario",
                 "best_Strategy": "balancing",
                 "strategy_reason": "Balancing is the best because it can allow them to be safe, legal and finding other ways to achieve their goal of independence through other means like public transportation without increase danger to them and others. Prioritization would be second because it will allow them to choose what is best for them, easier to achieve and safer overall. I chose self reflection third because it also will let them focus on what is best for them and find good reasons why.",
                 "potential_cause": "logical_reasoning",
-                "strategy_adoptable": "Not available for this scenario"
+                "strategy_adoptable": "Strategy adoptable factors not available for this scenario"
             },
             "annotator3": {
                 "pair": "Conformity and Self-Direction",
                 "pair_factors": [
                     "social_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "implicit",
-                "level_of_consequence": "high",
+                "social_context": "Family",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "Having these things can affect the ability to function independently of others, especially in the family.",
-                "value_change_factor": "Not available for this scenario",
+                "value_change_factor": "Value Change factors not available for this scenario",
                 "best_Strategy": "prioritization",
                 "strategy_reason": "It is an important decision that needs to be made in an objective manner.",
                 "potential_cause": "logical_reasoning",
-                "strategy_adoptable": "Not available for this scenario"
+                "strategy_adoptable": "Strategy adoptable factors not available for this scenario"
             },
             "labels": {
                 "one_d_labels": [
                     "Conformity and Self-Direction",
                     "personal_factors",
                     "social_factors",
-                    "stranger",
-                    "other-Personal/Self",
-                    "family",
-                    "na",
-                    "implicit",
-                    "high",
-                    "Not available for this scenario",
+                    "Stranger",
+                    "Other",
+                    "Family",
+                    "N/A",
+                    "Implicit",
+                    "High",
+                    "Value Change factors not available for this scenario",
                     "self_reflection",
                     "balancing",
                     "prioritization",
                     "logical_reasoning",
-                    "Not available for this scenario"
+                    "Strategy adoptable factors not available for this scenario"
                 ]
             },
             "sankey": {
@@ -681,9 +681,9 @@
                     6,
                     7,
                     8,
-                    14,
-                    14,
-                    14,
+                    9,
+                    9,
+                    9,
                     10,
                     11,
                     12,
@@ -700,7 +700,7 @@
                     7,
                     8,
                     8,
-                    14,
+                    9,
                     10,
                     11,
                     12,
@@ -737,14 +737,14 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "romantic_relationship"
+                "Romantic Relationship"
             ],
             "Time Urgency": [
-                "implicit",
-                "explicit"
+                "Implicit",
+                "Explicit"
             ],
             "Level_of_Consequence": [
-                "high"
+                "High"
             ],
             "annotator1": {
                 "pair": "Power and Self-Direction",
@@ -752,15 +752,15 @@
                     "emotional_factors",
                     "personal_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "implicit",
-                "level_of_consequence": "high",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "If this goes wrong and the partner resists this pressuring to move, they will more than likely end the relationship.",
-                "value_change_factor": "Not available for this scenario",
+                "value_change_factor": "Value Change factors not available for this scenario",
                 "best_Strategy": "prioritization",
                 "strategy_reason": "You clearly need to prioritize  what you value the most and from there it is going to be easy for you to see what is the right decision for you.",
                 "potential_cause": "both",
-                "strategy_adoptable": "Not available for this scenario"
+                "strategy_adoptable": "Strategy adoptable factors not available for this scenario"
             },
             "annotator2": {
                 "pair": "Achievement and Benevolence",
@@ -768,15 +768,15 @@
                     "social_factors",
                     "personal_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "implicit",
-                "level_of_consequence": "high",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "The person will suffer all of consequences or bad consequences if he chooses to move and can't find a job, have security, or provide for them and their standards of living would really suffer. If he makes her move and she doesn't want to it can also provide strain on the relationship and isn't understanding of what she really wants. The relationship could fail either way.",
-                "value_change_factor": "Not available for this scenario",
+                "value_change_factor": "Value Change factors not available for this scenario",
                 "best_Strategy": "goal_setting",
                 "strategy_reason": "I chose Goal Setting as the best strategy because it allows both people to discuss their goals and to make a plan that could be beneficial to both people without putting a strain on the relationship. It allows them to be open, honest and be understanding of what is expected of their future together. Second would be prioritization because he needs to understand what is more important to him and why and would make him choose between the two options quickly. Third is Behavioral Experimentation because it's a long distance relationship and usually both people haven't visited and explored all options in both locations before moving and that's something that can really help them decide what's best for both of them and find options that they havne't considered yet.",
                 "potential_cause": "both",
-                "strategy_adoptable": "Not available for this scenario"
+                "strategy_adoptable": "Strategy adoptable factors not available for this scenario"
             },
             "annotator3": {
                 "pair": "Achievement and Benevolence",
@@ -784,15 +784,15 @@
                     "moral_factors",
                     "personal_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "explicit",
-                "level_of_consequence": "high",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "Explicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "If the person forces their girlfriend to move with them it will likely damage their relationship, but they also would not want to lose their job.66",
-                "value_change_factor": "Not available for this scenario",
+                "value_change_factor": "Value Change factors not available for this scenario",
                 "best_Strategy": "balancing",
                 "strategy_reason": "It is important to balance what they need and what their girlfriend needs and to realize that sacrifices will need to be made in the future.",
                 "potential_cause": "both",
-                "strategy_adoptable": "Not available for this scenario"
+                "strategy_adoptable": "Strategy adoptable factors not available for this scenario"
             },
             "labels": {
                 "one_d_labels": [
@@ -802,16 +802,16 @@
                     "personal_factors",
                     "social_factors",
                     "moral_factors",
-                    "romantic_relationship",
-                    "implicit",
-                    "explicit",
-                    "high",
-                    "Not available for this scenario",
+                    "Romantic Relationship",
+                    "Implicit",
+                    "Explicit",
+                    "High",
+                    "Value Change factors not available for this scenario",
                     "prioritization",
                     "goal_setting",
                     "balancing",
                     "both",
-                    "Not available for this scenario"
+                    "Strategy adoptable factors not available for this scenario"
                 ]
             },
             "sankey": {
@@ -830,9 +830,9 @@
                     7,
                     8,
                     9,
-                    15,
-                    15,
-                    15,
+                    10,
+                    10,
+                    10,
                     11,
                     12,
                     13,
@@ -852,7 +852,7 @@
                     8,
                     9,
                     9,
-                    15,
+                    10,
                     11,
                     12,
                     13,
@@ -892,14 +892,14 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "romantic_relationship"
+                "Romantic Relationship"
             ],
             "Time Urgency": [
-                "na",
-                "implicit"
+                "N/A",
+                "Implicit"
             ],
             "Level_of_Consequence": [
-                "high"
+                "High"
             ],
             "annotator1": {
                 "pair": "Self-Direction and Tradition",
@@ -907,15 +907,15 @@
                     "emotional_factors",
                     "personal_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "high",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "This is a life changing decision that will cause lots of strain and stress with oneself and other close to you.",
-                "value_change_factor": "Not available for this scenario",
+                "value_change_factor": "Value Change factors not available for this scenario",
                 "best_Strategy": "self_reflection",
                 "strategy_reason": "For me you have to look deep within oneself in order to see if you can achieve some sort of independence without divorce.",
                 "potential_cause": "both",
-                "strategy_adoptable": "Not available for this scenario"
+                "strategy_adoptable": "Strategy adoptable factors not available for this scenario"
             },
             "annotator2": {
                 "pair": "Self-Direction and Tradition",
@@ -925,15 +925,15 @@
                     "moral_factors",
                     "personal_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "high",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "Choosing to divorce will effect ever part of both the husband and wife's lives.",
-                "value_change_factor": "Not available for this scenario",
+                "value_change_factor": "Value Change factors not available for this scenario",
                 "best_Strategy": "behavioral_experimentation",
                 "strategy_reason": "The issue in the marriage isn't just on one person so Behavioral Experimentation is the best strategy, like getting outside help or exploring new behaviors could improve their marriage and prevent a divorce, which would be best for both people. Self Reflection is second so he can understand why he feels this way and knowing the reasons why the marriage has changed and what things could change to improve the relationship. Prioritization will help him decide if the marriage or his freedom is what's best for him and then start to take actions towards divorce, if needed.",
                 "potential_cause": "both",
-                "strategy_adoptable": "Not available for this scenario"
+                "strategy_adoptable": "Strategy adoptable factors not available for this scenario"
             },
             "annotator3": {
                 "pair": "Conformity and Power",
@@ -941,15 +941,15 @@
                     "emotional_factors",
                     "social_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "implicit",
-                "level_of_consequence": "high",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "Going through a divorce is not an easy decision and it is important to decide whether or not it is worth getting divorced over control or if therapy should be taken in order to get the relatinoship back in order.",
-                "value_change_factor": "Not available for this scenario",
+                "value_change_factor": "Value Change factors not available for this scenario",
                 "best_Strategy": "prioritization",
                 "strategy_reason": "They should decide if they really would not need their wife and if there would not be further consequences, or if they should swallow their pride and stay in the relationship.",
                 "potential_cause": "both",
-                "strategy_adoptable": "Not available for this scenario"
+                "strategy_adoptable": "Strategy adoptable factors not available for this scenario"
             },
             "labels": {
                 "one_d_labels": [
@@ -959,16 +959,16 @@
                     "personal_factors",
                     "social_factors",
                     "moral_factors",
-                    "romantic_relationship",
-                    "na",
-                    "implicit",
-                    "high",
-                    "Not available for this scenario",
+                    "Romantic Relationship",
+                    "N/A",
+                    "Implicit",
+                    "High",
+                    "Value Change factors not available for this scenario",
                     "self_reflection",
                     "behavioral_experimentation",
                     "prioritization",
                     "both",
-                    "Not available for this scenario"
+                    "Strategy adoptable factors not available for this scenario"
                 ]
             },
             "sankey": {
@@ -988,9 +988,9 @@
                     7,
                     8,
                     9,
-                    15,
-                    15,
-                    15,
+                    10,
+                    10,
+                    10,
                     11,
                     12,
                     13,
@@ -1011,7 +1011,7 @@
                     8,
                     9,
                     9,
-                    15,
+                    10,
                     11,
                     12,
                     13,
@@ -1052,25 +1052,25 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "romantic_relationship",
-                "family"
+                "Romantic Relationship",
+                "Family"
             ],
             "Time Urgency": [
-                "na",
-                "explicit"
+                "N/A",
+                "Explicit"
             ],
             "Level_of_Consequence": [
-                "medium",
-                "high"
+                "Medium",
+                "High"
             ],
             "annotator1": {
                 "pair": "Achievement and Conformity",
                 "pair_factors": [
                     "moral_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "medium",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "Not being well defined makes this harder to answer. She may be mad that I didn't complete it for her, like I normally do. It could risk her grade and cause her to fail completely. Could be a one time thing because something came in life and she depended on me to help, so becomes disappointed, can't trust me.",
                 "value_change_factor": [
                     "Respect for Fairness and Rules"
@@ -1087,9 +1087,9 @@
                 "pair_factors": [
                     "moral_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "medium",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "Doing my wife's homework may not have immediate repercussions but could subtly shift our dynamic in the long term",
                 "value_change_factor": [
                     "Desire for Personal Autonomy",
@@ -1107,9 +1107,9 @@
                 "pair_factors": [
                     "moral_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "explicit",
-                "level_of_consequence": "high",
+                "social_context": "Family",
+                "time_urgency": "Explicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "The work needs to be done. But the wife should be doing the work. However if the wife isn't able to complete the work for some reason and the spouse doesn't want to complete the work it may be because the wife would not be prepared for whatever the work is supposed to prepare for. Such as a quiz nay occur in the future covering work that she did not do herself",
                 "value_change_factor": [
                     "Commitment to Fairness and Support"
@@ -1126,12 +1126,12 @@
                     "Achievement and Conformity",
                     "Benevolence and Self-Direction",
                     "moral_factors",
-                    "romantic_relationship",
-                    "family",
-                    "na",
-                    "explicit",
-                    "medium",
-                    "high",
+                    "Romantic Relationship",
+                    "Family",
+                    "N/A",
+                    "Explicit",
+                    "Medium",
+                    "High",
                     "Respect for Fairness and Rules",
                     "Desire for Personal Autonomy",
                     "Commitment to Fairness and Support",
@@ -1226,16 +1226,16 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "romantic_relationship"
+                "Romantic Relationship"
             ],
             "Time Urgency": [
-                "na",
-                "implicit"
+                "N/A",
+                "Implicit"
             ],
             "Level_of_Consequence": [
-                "mild",
-                "high",
-                "medium"
+                "Mild",
+                "High",
+                "Medium"
             ],
             "annotator1": {
                 "pair": "Benevolence and Hedonism",
@@ -1244,9 +1244,9 @@
                     "moral_factors",
                     "personal_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "Really only a couple of risks here. Someone's feelings being hurt, and breakings of personal morals.",
                 "value_change_factor": [
                     "Desire for Pleasure and Excitement"
@@ -1264,9 +1264,9 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "high",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "My actions in this area could permanently alienate me from my life partner",
                 "value_change_factor": [
                     "Desire for Excitement and Novelty",
@@ -1285,9 +1285,9 @@
                 "pair_factors": [
                     "emotional_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "implicit",
-                "level_of_consequence": "medium",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "This could have long-term consequences if it ruins your current relationship. So the person has to think about if this is something deep or if it's shallow",
                 "value_change_factor": [
                     "Emotional Conflict"
@@ -1307,12 +1307,12 @@
                     "moral_factors",
                     "personal_factors",
                     "social_factors",
-                    "romantic_relationship",
-                    "na",
-                    "implicit",
-                    "mild",
-                    "high",
-                    "medium",
+                    "Romantic Relationship",
+                    "N/A",
+                    "Implicit",
+                    "Mild",
+                    "High",
+                    "Medium",
                     "Desire for Pleasure and Excitement",
                     "Desire for Excitement and Novelty",
                     "Commitment to Relationship Norms",
@@ -1432,17 +1432,17 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "family"
+                "Family"
             ],
             "Time Urgency": [
-                "na",
-                "implicit",
-                "explicit"
+                "N/A",
+                "Implicit",
+                "Explicit"
             ],
             "Level_of_Consequence": [
-                "mild",
-                "high",
-                "medium"
+                "Mild",
+                "High",
+                "Medium"
             ],
             "annotator1": {
                 "pair": "Power and Self-Direction",
@@ -1450,9 +1450,9 @@
                     "social_factors",
                     "personal_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Family",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "She could have no interest in the destination, wasting money. Could be upset that I didn't ask.",
                 "value_change_factor": [
                     "Desire for Control"
@@ -1470,9 +1470,9 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "implicit",
-                "level_of_consequence": "high",
+                "social_context": "Family",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "If it goes badly for my Mom during the travel I arranged, I'd be solely responsible and devastated.",
                 "value_change_factor": [
                     "Desire for Control",
@@ -1491,9 +1491,9 @@
                 "pair_factors": [
                     "social_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "explicit",
-                "level_of_consequence": "medium",
+                "social_context": "Family",
+                "time_urgency": "Explicit",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "If your mom doesn't want to use the ticket you just wasted your money. So you need to speak with her first.",
                 "value_change_factor": [
                     "Desire to Help and Support"
@@ -1512,13 +1512,13 @@
                     "social_factors",
                     "personal_factors",
                     "moral_factors",
-                    "family",
-                    "na",
-                    "implicit",
-                    "explicit",
-                    "mild",
-                    "high",
-                    "medium",
+                    "Family",
+                    "N/A",
+                    "Implicit",
+                    "Explicit",
+                    "Mild",
+                    "High",
+                    "Medium",
                     "Desire for Control",
                     "Respect for Autonomy",
                     "Emotional Response",
@@ -1630,14 +1630,14 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "romantic_relationship"
+                "Romantic Relationship"
             ],
             "Time Urgency": [
-                "implicit",
-                "na"
+                "Implicit",
+                "N/A"
             ],
             "Level_of_Consequence": [
-                "high"
+                "High"
             ],
             "annotator1": {
                 "pair": "Benevolence and Hedonism",
@@ -1646,9 +1646,9 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "implicit",
-                "level_of_consequence": "high",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "The consequences of this are very great. If the person doesn't change their behavior they could end up losing their current girlfriend and then they have a whole different set of problems to deal with.",
                 "value_change_factor": [
                     "Desire for Pleasure and Excitement",
@@ -1668,9 +1668,9 @@
                     "emotional_factors",
                     "moral_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "high",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "In this scenario, this person's ongoing infidelity is likely to result in the end of this person's romantic relationship, which may have strong emotional impact on both this person and their girlfriend.",
                 "value_change_factor": [
                     "Commitment to Caring and Kindness",
@@ -1689,9 +1689,9 @@
                     "emotional_factors",
                     "moral_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "high",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "This person is cheating on their partner and is they find out this could be the end of their relationship.",
                 "value_change_factor": [
                     "Desire for Pleasure and Excitement",
@@ -1711,10 +1711,10 @@
                     "emotional_factors",
                     "social_factors",
                     "moral_factors",
-                    "romantic_relationship",
-                    "implicit",
-                    "na",
-                    "high",
+                    "Romantic Relationship",
+                    "Implicit",
+                    "N/A",
+                    "High",
                     "Desire for Pleasure and Excitement",
                     "Commitment to Caring and Kindness",
                     "Emotional Conflict",
@@ -1818,23 +1818,23 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "stranger"
+                "Stranger"
             ],
             "Time Urgency": [
-                "implicit",
-                "na"
+                "Implicit",
+                "N/A"
             ],
             "Level_of_Consequence": [
-                "mild"
+                "Mild"
             ],
             "annotator1": {
                 "pair": "Benevolence and Hedonism",
                 "pair_factors": [
                     "moral_factors"
                 ],
-                "social_context": "stranger",
-                "time_urgency": "implicit",
-                "level_of_consequence": "mild",
+                "social_context": "Stranger",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "There are those no consequences since the person isn't there where the accident happened. But if they are around other people this would be disturbing to see a person laugh at. So in the end they could end up alienating friends or coworkers.",
                 "value_change_factor": [
                     "Desire for Excitement or Thrill",
@@ -1853,9 +1853,9 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "stranger",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Stranger",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "The person is watching videos of accidents that have already occurred where the victims are not aware of the person's inappropriate laughter at their expense.",
                 "value_change_factor": [
                     "Desire for Excitement and Shock",
@@ -1874,9 +1874,9 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "stranger",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Stranger",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "To me there is not really much consequence from this as people might think you're weird but other than that, not mich will happen.",
                 "value_change_factor": [
                     "Empathy and Compassion",
@@ -1895,10 +1895,10 @@
                     "Stimulation and Universalism",
                     "moral_factors",
                     "social_factors",
-                    "stranger",
-                    "implicit",
-                    "na",
-                    "mild",
+                    "Stranger",
+                    "Implicit",
+                    "N/A",
+                    "Mild",
                     "Desire for Excitement or Thrill",
                     "Empathy and Compassion",
                     "Desire for Excitement and Shock",
@@ -2007,17 +2007,17 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "family",
-                "romantic_relationship"
+                "Family",
+                "Romantic Relationship"
             ],
             "Time Urgency": [
-                "explicit",
-                "implicit",
-                "na"
+                "Explicit",
+                "Implicit",
+                "N/A"
             ],
             "Level_of_Consequence": [
-                "high",
-                "medium"
+                "High",
+                "Medium"
             ],
             "annotator1": {
                 "pair": "Tradition and Universalism",
@@ -2026,9 +2026,9 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "explicit",
-                "level_of_consequence": "high",
+                "social_context": "Family",
+                "time_urgency": "Explicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "The person has a right to be angry with their boyfriend for a behaving inappropriately. She needs to evaluate the relationship in relation to her child.",
                 "value_change_factor": [
                     "Desire to Uphold Family Values",
@@ -2047,9 +2047,9 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "implicit",
-                "level_of_consequence": "medium",
+                "social_context": "Family",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "The consequences could be somewhat significant because the boyfriend may be acting in ways that could emotionally harm the 3-year old child and could interfere with the parenting choices of the child's parent.",
                 "value_change_factor": [
                     "Commitment to Inclusivity and Understanding",
@@ -2068,9 +2068,9 @@
                     "emotional_factors",
                     "moral_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "high",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "When people are behaving inappropriately around kids that is an issue that can go really bad as we don't know the behaviors that are being done.",
                 "value_change_factor": [
                     "Desire to Protect and Ensure Safety",
@@ -2090,13 +2090,13 @@
                     "emotional_factors",
                     "social_factors",
                     "moral_factors",
-                    "family",
-                    "romantic_relationship",
-                    "explicit",
-                    "implicit",
-                    "na",
-                    "high",
-                    "medium",
+                    "Family",
+                    "Romantic Relationship",
+                    "Explicit",
+                    "Implicit",
+                    "N/A",
+                    "High",
+                    "Medium",
                     "Desire to Uphold Family Values",
                     "Awareness of Differing Parenting Styles",
                     "Commitment to Inclusivity and Understanding",
@@ -2228,25 +2228,25 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "other-school",
-                "workplace"
+                "Other",
+                "Workplace"
             ],
             "Time Urgency": [
-                "implicit",
-                "na"
+                "Implicit",
+                "N/A"
             ],
             "Level_of_Consequence": [
-                "medium",
-                "mild"
+                "Medium",
+                "Mild"
             ],
             "annotator1": {
                 "pair": "Security and Self-Direction",
                 "pair_factors": [
                     "personal_factors"
                 ],
-                "social_context": "other-school",
-                "time_urgency": "implicit",
-                "level_of_consequence": "medium",
+                "social_context": "Other",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "I chose medium because your choice of what to study will effect the direction of your future.",
                 "value_change_factor": [
                     "Desire for Personal Fulfillment and Exploration",
@@ -2266,9 +2266,9 @@
                     "social_factors",
                     "personal_factors"
                 ],
-                "social_context": "workplace",
-                "time_urgency": "implicit",
-                "level_of_consequence": "mild",
+                "social_context": "Workplace",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "Taking a low paying job may not provide a lot of financial security, but in the long term it might make a person more mentally happy emotionally happy and mentally stable and be less stressful.",
                 "value_change_factor": [
                     "Desire for Personal Fulfillment and Exploration",
@@ -2287,9 +2287,9 @@
                     "emotional_factors",
                     "personal_factors"
                 ],
-                "social_context": "workplace",
-                "time_urgency": "na",
-                "level_of_consequence": "medium",
+                "social_context": "Workplace",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "Could result in not making enough money to support yourself.",
                 "value_change_factor": [
                     "Awareness of Long"
@@ -2308,12 +2308,12 @@
                     "personal_factors",
                     "social_factors",
                     "emotional_factors",
-                    "other-school",
-                    "workplace",
-                    "implicit",
-                    "na",
-                    "medium",
-                    "mild",
+                    "Other",
+                    "Workplace",
+                    "Implicit",
+                    "N/A",
+                    "Medium",
+                    "Mild",
                     "Desire for Personal Fulfillment and Exploration",
                     "Commitment to Financial Stability and Future Security",
                     "Awareness of Long",
@@ -2420,16 +2420,16 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "romantic_relationship"
+                "Romantic Relationship"
             ],
             "Time Urgency": [
-                "implicit",
-                "explicit",
-                "na"
+                "Implicit",
+                "Explicit",
+                "N/A"
             ],
             "Level_of_Consequence": [
-                "medium",
-                "high"
+                "Medium",
+                "High"
             ],
             "annotator1": {
                 "pair": "Security and Self-Direction",
@@ -2437,9 +2437,9 @@
                     "emotional_factors",
                     "social_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "implicit",
-                "level_of_consequence": "medium",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "Attempting to control someone else's behavior could lead to a breakdown in the relationship or possibly worse if the partners behavior is violent or erratic when drinking.",
                 "value_change_factor": [
                     "Respect for Personal Autonomy and Freedom",
@@ -2458,9 +2458,9 @@
                     "emotional_factors",
                     "social_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "explicit",
-                "level_of_consequence": "high",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "Explicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "A partner who drinks too much might be unbearable. Also might be dangerous depending on how they behave when drunk.",
                 "value_change_factor": [
                     "Respect for Personal Autonomy and Freedom",
@@ -2479,9 +2479,9 @@
                     "emotional_factors",
                     "moral_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "medium",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "Could cost the entire relationship to crumble.",
                 "value_change_factor": [
                     "Desire to Protect and Support Partner",
@@ -2501,12 +2501,12 @@
                     "emotional_factors",
                     "social_factors",
                     "moral_factors",
-                    "romantic_relationship",
-                    "implicit",
-                    "explicit",
-                    "na",
-                    "medium",
-                    "high",
+                    "Romantic Relationship",
+                    "Implicit",
+                    "Explicit",
+                    "N/A",
+                    "Medium",
+                    "High",
                     "Respect for Personal Autonomy and Freedom",
                     "Awareness of Balance between Support and Autonomy",
                     "Desire to Protect and Support Partner",
@@ -2630,15 +2630,15 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "stranger",
-                "romantic_relationship"
+                "Stranger",
+                "Romantic Relationship"
             ],
             "Time Urgency": [
-                "implicit",
-                "na"
+                "Implicit",
+                "N/A"
             ],
             "Level_of_Consequence": [
-                "mild"
+                "Mild"
             ],
             "annotator1": {
                 "pair": "Benevolence and Hedonism",
@@ -2646,9 +2646,9 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "stranger",
-                "time_urgency": "implicit",
-                "level_of_consequence": "mild",
+                "social_context": "Stranger",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "Flirting doesn't directly do harm to anyone.",
                 "value_change_factor": [
                     "Commitment to Kindness and Respect for Others",
@@ -2667,9 +2667,9 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "implicit",
-                "level_of_consequence": "mild",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "It is mean to flirt, but perhaps the women were never interested in him to begin with. Most attention from men is unwanted. We are not attracted to all the men who find us attractive.",
                 "value_change_factor": [
                     "Desire for Personal Expression and Enjoyment"
@@ -2686,9 +2686,9 @@
                 "pair_factors": [
                     "social_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "Could result in never really finding a true relationship due to all the bridges you have burned toying with the idea.",
                 "value_change_factor": [
                     "Commitment to Social Expectations and Appropriateness"
@@ -2707,11 +2707,11 @@
                     "Conformity and Stimulation",
                     "social_factors",
                     "moral_factors",
-                    "stranger",
-                    "romantic_relationship",
-                    "implicit",
-                    "na",
-                    "mild",
+                    "Stranger",
+                    "Romantic Relationship",
+                    "Implicit",
+                    "N/A",
+                    "Mild",
                     "Commitment to Kindness and Respect for Others",
                     "Awareness of Boundaries in Social Interactions",
                     "Desire for Personal Expression and Enjoyment",
@@ -2824,15 +2824,15 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "family"
+                "Family"
             ],
             "Time Urgency": [
-                "na",
-                "implicit"
+                "N/A",
+                "Implicit"
             ],
             "Level_of_Consequence": [
-                "mild",
-                "medium"
+                "Mild",
+                "Medium"
             ],
             "annotator1": {
                 "pair": "Conformity and Self-Direction",
@@ -2840,9 +2840,9 @@
                     "social_factors",
                     "personal_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Family",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "I chose mild because there is seldom harm in admitting you are wrong.",
                 "value_change_factor": [
                     "Embracing Independence and Personal Discovery"
@@ -2860,9 +2860,9 @@
                     "social_factors",
                     "personal_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "implicit",
-                "level_of_consequence": "medium",
+                "social_context": "Family",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "Depending on the age, if you're under your parents guardianship they can punish you. If you're an adult is less important",
                 "value_change_factor": [
                     "Recognition of Wisdom in Tradition",
@@ -2881,9 +2881,9 @@
                     "emotional_factors",
                     "moral_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Family",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "There is no consequence in thinking your parents are smarter than you thought. It's an observation that you get and nothing wrong with it.",
                 "value_change_factor": [
                     "Recognition of Wisdom in Tradition",
@@ -2904,11 +2904,11 @@
                     "personal_factors",
                     "emotional_factors",
                     "moral_factors",
-                    "family",
-                    "na",
-                    "implicit",
-                    "mild",
-                    "medium",
+                    "Family",
+                    "N/A",
+                    "Implicit",
+                    "Mild",
+                    "Medium",
                     "Embracing Independence and Personal Discovery",
                     "Recognition of Wisdom in Tradition",
                     "Balancing Respect for Legacy with Individual Authority",
@@ -3027,24 +3027,24 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "family"
+                "Family"
             ],
             "Time Urgency": [
-                "implicit",
-                "na"
+                "Implicit",
+                "N/A"
             ],
             "Level_of_Consequence": [
-                "medium",
-                "mild"
+                "Medium",
+                "Mild"
             ],
             "annotator1": {
                 "pair": "Benevolence and Conformity",
                 "pair_factors": [
                     "social_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "implicit",
-                "level_of_consequence": "medium",
+                "social_context": "Family",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "Bringing up this issue in a way that the ex-husband finds offends could seriously damage your efforts at cooperating and co-parenting.",
                 "value_change_factor": [
                     "Balancing Boundaries and Appreciation"
@@ -3062,9 +3062,9 @@
                     "social_factors",
                     "personal_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "implicit",
-                "level_of_consequence": "mild",
+                "social_context": "Family",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "This person may feel the grandmother is implying the child is too thin and needs more food. which is a negative view of her parenting.",
                 "value_change_factor": [
                     "Desire for Autonomy and Personal Boundaries"
@@ -3082,9 +3082,9 @@
                     "moral_factors",
                     "personal_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "na",
-                "level_of_consequence": "medium",
+                "social_context": "Family",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "This could really upset her as she might be hurt when she hears you don't want to have any food she sends as I am sure it is out of love that she is doing this.",
                 "value_change_factor": [
                     "Desire for Autonomy and Personal Boundaries",
@@ -3105,11 +3105,11 @@
                     "social_factors",
                     "personal_factors",
                     "moral_factors",
-                    "family",
-                    "implicit",
-                    "na",
-                    "medium",
-                    "mild",
+                    "Family",
+                    "Implicit",
+                    "N/A",
+                    "Medium",
+                    "Mild",
                     "Balancing Boundaries and Appreciation",
                     "Desire for Autonomy and Personal Boundaries",
                     "Commitment to Gratitude and Family Harmony",
@@ -3223,23 +3223,23 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "family"
+                "Family"
             ],
             "Time Urgency": [
-                "implicit",
-                "explicit"
+                "Implicit",
+                "Explicit"
             ],
             "Level_of_Consequence": [
-                "high"
+                "High"
             ],
             "annotator1": {
                 "pair": "Benevolence and Universalism",
                 "pair_factors": [
                     "moral_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "implicit",
-                "level_of_consequence": "high",
+                "social_context": "Family",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "Telling the boyfriend could affect familial relationships and might be seen as a betrayal by the sister.",
                 "value_change_factor": [
                     "Desire to Protect Family Bonds"
@@ -3257,9 +3257,9 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "explicit",
-                "level_of_consequence": "high",
+                "social_context": "Family",
+                "time_urgency": "Explicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "This person pretends to care about the boyfriend when in reality it seems like an attempt to sabotage the sister. This could end up destroying their relationship.",
                 "value_change_factor": [
                     "Balancing Family Loyalty and Moral Responsibility"
@@ -3278,9 +3278,9 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "implicit",
-                "level_of_consequence": "high",
+                "social_context": "Family",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "This is not only going to more than likely cause him to break up with her but she will be mad at you as well. So there will be plenty of drama from this.",
                 "value_change_factor": [
                     "Upholding Social Expectations",
@@ -3300,10 +3300,10 @@
                     "moral_factors",
                     "social_factors",
                     "emotional_factors",
-                    "family",
-                    "implicit",
-                    "explicit",
-                    "high",
+                    "Family",
+                    "Implicit",
+                    "Explicit",
+                    "High",
                     "Desire to Protect Family Bonds",
                     "Balancing Family Loyalty and Moral Responsibility",
                     "Upholding Social Expectations",
@@ -3401,17 +3401,17 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "family"
+                "Family"
             ],
             "Time Urgency": [
-                "na",
-                "explicit",
-                "implicit"
+                "N/A",
+                "Explicit",
+                "Implicit"
             ],
             "Level_of_Consequence": [
-                "mild",
-                "medium",
-                "high"
+                "Mild",
+                "Medium",
+                "High"
             ],
             "annotator1": {
                 "pair": "Achievement and Conformity",
@@ -3419,9 +3419,9 @@
                     "moral_factors",
                     "personal_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Family",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "Family is likely to be pretty upset with you if you don't show up.",
                 "value_change_factor": [
                     "Commitment to Professional Goals",
@@ -3442,9 +3442,9 @@
                     "moral_factors",
                     "personal_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "explicit",
-                "level_of_consequence": "medium",
+                "social_context": "Family",
+                "time_urgency": "Explicit",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "The workplace should be able to understand that it is important to go home for the funeral. However, if they do not go home for the funeral, it may sever or weaken ties with family members.",
                 "value_change_factor": [
                     "Commitment to Professional Goals",
@@ -3466,9 +3466,9 @@
                     "moral_factors",
                     "personal_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "implicit",
-                "level_of_consequence": "high",
+                "social_context": "Family",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "I think that this can be viewed very badly by friends and family as it will be seen as a sign of disrespect for many of them and you might not be able to live this down.",
                 "value_change_factor": [
                     "Desire to Honor Family Traditions"
@@ -3488,13 +3488,13 @@
                     "personal_factors",
                     "emotional_factors",
                     "social_factors",
-                    "family",
-                    "na",
-                    "explicit",
-                    "implicit",
-                    "mild",
-                    "medium",
-                    "high",
+                    "Family",
+                    "N/A",
+                    "Explicit",
+                    "Implicit",
+                    "Mild",
+                    "Medium",
+                    "High",
                     "Commitment to Professional Goals",
                     "Adherence to Social and Family Expectations",
                     "Balancing Professional Responsibilities and Family Obligations",
@@ -3635,26 +3635,26 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "other-roommate",
-                "friends"
+                "Other",
+                "Friends"
             ],
             "Time Urgency": [
-                "na",
-                "implicit"
+                "N/A",
+                "Implicit"
             ],
             "Level_of_Consequence": [
-                "mild",
-                "high",
-                "medium"
+                "Mild",
+                "High",
+                "Medium"
             ],
             "annotator1": {
                 "pair": "Security and Self-Direction",
                 "pair_factors": [
                     "personal_factors"
                 ],
-                "social_context": "other-roommate",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Other",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "Seems like a simple thing to expect. Not safe to have strangers in the house without the person who invited them there, actually there.",
                 "value_change_factor": [
                     "Balancing Safety and Independence"
@@ -3672,9 +3672,9 @@
                     "social_factors",
                     "personal_factors"
                 ],
-                "social_context": "friends",
-                "time_urgency": "implicit",
-                "level_of_consequence": "high",
+                "social_context": "Friends",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "Something bad could happen while guests are over and their host is not present. However, the person may want to demonstrate independence and may want to have the same freedoms.",
                 "value_change_factor": [
                     "Desire for Personal Safety",
@@ -3694,9 +3694,9 @@
                     "social_factors",
                     "personal_factors"
                 ],
-                "social_context": "friends",
-                "time_urgency": "na",
-                "level_of_consequence": "medium",
+                "social_context": "Friends",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "I think that when you have strangers over who are not your friends then it can lead to awkwardness. You might also upset your roommate by letting them know you don't trust their friends or their judgement when it comes to friends.",
                 "value_change_factor": [
                     "Desire for Personal Safety",
@@ -3715,13 +3715,13 @@
                     "personal_factors",
                     "social_factors",
                     "emotional_factors",
-                    "other-roommate",
-                    "friends",
-                    "na",
-                    "implicit",
-                    "mild",
-                    "high",
-                    "medium",
+                    "Other",
+                    "Friends",
+                    "N/A",
+                    "Implicit",
+                    "Mild",
+                    "High",
+                    "Medium",
                     "Balancing Safety and Independence",
                     "Desire for Personal Safety",
                     "Respect for Autonomy",
@@ -3833,25 +3833,25 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "friends"
+                "Friends"
             ],
             "Time Urgency": [
-                "na",
-                "implicit"
+                "N/A",
+                "Implicit"
             ],
             "Level_of_Consequence": [
-                "mild",
-                "medium",
-                "high"
+                "Mild",
+                "Medium",
+                "High"
             ],
             "annotator1": {
                 "pair": "Self-Direction and Tradition",
                 "pair_factors": [
                     "personal_factors"
                 ],
-                "social_context": "friends",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Friends",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "Not much of a consequence if you are losing someone who uses you",
                 "value_change_factor": [
                     "Respect for Loyalty and Longstanding Bonds"
@@ -3869,9 +3869,9 @@
                     "emotional_factors",
                     "social_factors"
                 ],
-                "social_context": "friends",
-                "time_urgency": "implicit",
-                "level_of_consequence": "medium",
+                "social_context": "Friends",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "They need to decide whether or not this is a relationship worth keeping and if it is possible to speak up to the friend, to see if the friend just did not notice what they were doing. This friendship might be useful in the future.",
                 "value_change_factor": [
                     "Need to Maintain Social Harmony",
@@ -3893,9 +3893,9 @@
                     "moral_factors",
                     "personal_factors"
                 ],
-                "social_context": "friends",
-                "time_urgency": "implicit",
-                "level_of_consequence": "high",
+                "social_context": "Friends",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "If you feel used by someone then that means that they did you wrong and thus you need to get away from this situation as soon as possible as there is no good coming from it.",
                 "value_change_factor": [
                     "Desire for Personal Safety and Emotional Well"
@@ -3916,12 +3916,12 @@
                     "emotional_factors",
                     "social_factors",
                     "moral_factors",
-                    "friends",
-                    "na",
-                    "implicit",
-                    "mild",
-                    "medium",
-                    "high",
+                    "Friends",
+                    "N/A",
+                    "Implicit",
+                    "Mild",
+                    "Medium",
+                    "High",
                     "Respect for Loyalty and Longstanding Bonds",
                     "Need to Maintain Social Harmony",
                     "Commitment to Kindness and Care for Others",
@@ -4047,15 +4047,15 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "romantic_relationship",
-                "workplace"
+                "Romantic Relationship",
+                "Workplace"
             ],
             "Time Urgency": [
-                "na",
-                "implicit"
+                "N/A",
+                "Implicit"
             ],
             "Level_of_Consequence": [
-                "medium"
+                "Medium"
             ],
             "annotator1": {
                 "pair": "Benevolence and Self-Direction",
@@ -4063,9 +4063,9 @@
                     "social_factors",
                     "personal_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "medium",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "I feel that if this is something that your partner is pushing it can lead to some issues as they might wonder why you don't want to do it and that will lead to even deeper resentment.",
                 "value_change_factor": [
                     "Desire for Independence and Personal Space",
@@ -4085,9 +4085,9 @@
                     "social_factors",
                     "personal_factors"
                 ],
-                "social_context": "workplace",
-                "time_urgency": "implicit",
-                "level_of_consequence": "medium",
+                "social_context": "Workplace",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "The consequences are medium because it could sacrifice your financial security to leave the job that your partner works at. On the other hand it would create relationship stress to spend so much time together.",
                 "value_change_factor": [
                     "Desire for Independence and Personal Space"
@@ -4105,9 +4105,9 @@
                     "emotional_factors",
                     "personal_factors"
                 ],
-                "social_context": "workplace",
-                "time_urgency": "implicit",
-                "level_of_consequence": "medium",
+                "social_context": "Workplace",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "not only is this a relationship issue but it is also a workplace challenge. if this situation is not handled to the satisfaction of both partners, a lot of hard feelings could occur.  I did not choose \"high\" because I think there is a reasonable chance this can be worked out.",
                 "value_change_factor": [
                     "Commitment to Supporting Your Partner",
@@ -4126,11 +4126,11 @@
                     "social_factors",
                     "personal_factors",
                     "emotional_factors",
-                    "romantic_relationship",
-                    "workplace",
-                    "na",
-                    "implicit",
-                    "medium",
+                    "Romantic Relationship",
+                    "Workplace",
+                    "N/A",
+                    "Implicit",
+                    "Medium",
                     "Desire for Independence and Personal Space",
                     "Commitment to Supporting Your Partner",
                     "Balancing Personal Growth and Relationship Dynamics",
@@ -4236,17 +4236,17 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "workplace",
-                "romantic_relationship"
+                "Workplace",
+                "Romantic Relationship"
             ],
             "Time Urgency": [
-                "na",
-                "explicit",
-                "implicit"
+                "N/A",
+                "Explicit",
+                "Implicit"
             ],
             "Level_of_Consequence": [
-                "medium",
-                "high"
+                "Medium",
+                "High"
             ],
             "annotator1": {
                 "pair": "Achievement and Universalism",
@@ -4254,9 +4254,9 @@
                     "emotional_factors",
                     "moral_factors"
                 ],
-                "social_context": "workplace",
-                "time_urgency": "na",
-                "level_of_consequence": "medium",
+                "social_context": "Workplace",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "Your partner might resent you for this and this could lead to a strainful relationship filled with lots of resentment.",
                 "value_change_factor": [
                     "Commitment to Fairness and Equity",
@@ -4274,9 +4274,9 @@
                 "pair_factors": [
                     "social_factors"
                 ],
-                "social_context": "workplace",
-                "time_urgency": "explicit",
-                "level_of_consequence": "high",
+                "social_context": "Workplace",
+                "time_urgency": "Explicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "Not working on the project yourself could cause you to for your job at risk. If you were assigned a project they expect you to put in on the project. So you could be jeopardizing your position at work.",
                 "value_change_factor": [
                     "Balancing Efficiency with Ethical Standards"
@@ -4295,9 +4295,9 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "implicit",
-                "level_of_consequence": "medium",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "the person is thinking about their partner.  however, the strategy of offering a gift card in exchange for their portion of the work may not make the partner happy.  as long as the couple talk things over things should be fine but this needs to be handled delicately. the gift card idea may be a great option for one partner and an unsatisfactory option for the other partner.",
                 "value_change_factor": [
                     "Commitment to Supporting Others",
@@ -4317,13 +4317,13 @@
                     "emotional_factors",
                     "moral_factors",
                     "social_factors",
-                    "workplace",
-                    "romantic_relationship",
-                    "na",
-                    "explicit",
-                    "implicit",
-                    "medium",
-                    "high",
+                    "Workplace",
+                    "Romantic Relationship",
+                    "N/A",
+                    "Explicit",
+                    "Implicit",
+                    "Medium",
+                    "High",
                     "Commitment to Fairness and Equity",
                     "Balancing Efficiency with Ethical Standards",
                     "Commitment to Supporting Others",
@@ -4448,17 +4448,17 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "friends",
-                "other-roommate"
+                "Friends",
+                "Other"
             ],
             "Time Urgency": [
-                "na",
-                "explicit",
-                "implicit"
+                "N/A",
+                "Explicit",
+                "Implicit"
             ],
             "Level_of_Consequence": [
-                "medium",
-                "high"
+                "Medium",
+                "High"
             ],
             "annotator1": {
                 "pair": "Hedonism and Security",
@@ -4468,9 +4468,9 @@
                     "moral_factors",
                     "personal_factors"
                 ],
-                "social_context": "friends",
-                "time_urgency": "na",
-                "level_of_consequence": "medium",
+                "social_context": "Friends",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "I think that in most cases this wont be a huge issue, but it can be something that blows up. Your roommate might feel disrespected and that you don't value their space and security in the home.",
                 "value_change_factor": [
                     "Desire for Pleasure and Immediate Gratification",
@@ -4489,9 +4489,9 @@
                 "pair_factors": [
                     "social_factors"
                 ],
-                "social_context": "friends",
-                "time_urgency": "explicit",
-                "level_of_consequence": "medium",
+                "social_context": "Friends",
+                "time_urgency": "Explicit",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "They should check with the roommate ahead of time and create rules that say they either can or cannot have friends sleepover so that the person doesn't have to check each time.",
                 "value_change_factor": [
                     "Commitment to Maintaining a Safe and Respectful Environment"
@@ -4510,9 +4510,9 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "other-roommate",
-                "time_urgency": "implicit",
-                "level_of_consequence": "high",
+                "social_context": "Other",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "this is a very delicate situation.  unless the roommate is approached and is apologized to, the relationship between the roommates could be over.  clearly the roommate should have been approached and the situation should have been explained.",
                 "value_change_factor": [
                     "Desire to Help and Care for Others",
@@ -4533,13 +4533,13 @@
                     "social_factors",
                     "moral_factors",
                     "personal_factors",
-                    "friends",
-                    "other-roommate",
-                    "na",
-                    "explicit",
-                    "implicit",
-                    "medium",
-                    "high",
+                    "Friends",
+                    "Other",
+                    "N/A",
+                    "Explicit",
+                    "Implicit",
+                    "Medium",
+                    "High",
                     "Desire for Pleasure and Immediate Gratification",
                     "Commitment to Maintaining a Safe and Respectful Living Space",
                     "Balancing Personal Desires with Shared Responsibilities",
@@ -4679,16 +4679,16 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "workplace",
-                "stranger"
+                "Workplace",
+                "Stranger"
             ],
             "Time Urgency": [
-                "na"
+                "N/A"
             ],
             "Level_of_Consequence": [
-                "mild",
-                "high",
-                "medium"
+                "Mild",
+                "High",
+                "Medium"
             ],
             "annotator1": {
                 "pair": "Benevolence and Power",
@@ -4697,9 +4697,9 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "workplace",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Workplace",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "As a police officer you don't have to hate the rioters and forgiveness is a good thing. It does not mean that you wont do your job the right way. So to me there is no issues here.",
                 "value_change_factor": [
                     "Commitment to Authority and Institutional Pride"
@@ -4717,9 +4717,9 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "stranger",
-                "time_urgency": "na",
-                "level_of_consequence": "high",
+                "social_context": "Stranger",
+                "time_urgency": "N/A",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "Not knowing the laws and punishments, I would think this could be a very serious thing. Might even be on the level of treason.",
                 "value_change_factor": [
                     "Commitment to Authority and Institutional Pride"
@@ -4737,9 +4737,9 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "workplace",
-                "time_urgency": "na",
-                "level_of_consequence": "medium",
+                "social_context": "Workplace",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "While being a cop in such a tumultuous context is fairly dangerous and could have impacts on people's relationships and wellbeing, it's certainly more than a mild issue, but probably not so extreme that one single random officer is likely to be severely hurt or have their lives ruined or anything like that.",
                 "value_change_factor": [
                     "Balancing Authority with Global and Ethical Principles"
@@ -4758,12 +4758,12 @@
                     "emotional_factors",
                     "social_factors",
                     "moral_factors",
-                    "workplace",
-                    "stranger",
-                    "na",
-                    "mild",
-                    "high",
-                    "medium",
+                    "Workplace",
+                    "Stranger",
+                    "N/A",
+                    "Mild",
+                    "High",
+                    "Medium",
                     "Commitment to Authority and Institutional Pride",
                     "Balancing Authority with Global and Ethical Principles",
                     "self_reflection",
@@ -4871,14 +4871,14 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "family"
+                "Family"
             ],
             "Time Urgency": [
-                "na"
+                "N/A"
             ],
             "Level_of_Consequence": [
-                "medium",
-                "mild"
+                "Medium",
+                "Mild"
             ],
             "annotator1": {
                 "pair": "Conformity and Self-direction",
@@ -4886,9 +4886,9 @@
                     "emotional_factors",
                     "personal_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "na",
-                "level_of_consequence": "medium",
+                "social_context": "Family",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "I think that if they found out there is a chat without them this will for sure cause some issues. Although it will be tough at first, it can blow away. There is a way to let them know that their parents cant be in all of the chats as they want to talk amongst themselves as well. Not everything said is for all members of the family.",
                 "value_change_factor": [
                     "Commitment to Family Norms"
@@ -4906,9 +4906,9 @@
                     "social_factors",
                     "personal_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Family",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "risk someone taking it to heart and being upset, nothing permanent.",
                 "value_change_factor": [
                     "Desire for Open and Honest Communication",
@@ -4928,9 +4928,9 @@
                     "social_factors",
                     "personal_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Family",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "While the health issues hinted at are probably meaningful, the actual conflict listed, just having a private chat for the family that excludes some members, isn't that massive a deal and is fairly normal. At worst, some people will get their feelings hurt.",
                 "value_change_factor": [
                     "Desire for Open and Honest Communication",
@@ -4951,10 +4951,10 @@
                     "emotional_factors",
                     "personal_factors",
                     "social_factors",
-                    "family",
-                    "na",
-                    "medium",
-                    "mild",
+                    "Family",
+                    "N/A",
+                    "Medium",
+                    "Mild",
                     "Commitment to Family Norms",
                     "Desire for Open and Honest Communication",
                     "Commitment to Fairness and Inclusivity",
@@ -5060,13 +5060,13 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "romantic_relationship"
+                "Romantic Relationship"
             ],
             "Time Urgency": [
-                "na"
+                "N/A"
             ],
             "Level_of_Consequence": [
-                "medium"
+                "Medium"
             ],
             "annotator1": {
                 "pair": "Security and Self-direction",
@@ -5074,9 +5074,9 @@
                     "emotional_factors",
                     "personal_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "medium",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "There is nothing wrong with wanting your partner to show more initiative but how you go about this can cause problems. You need to make sure that it is done in a way that they will not get angry and cause the consequences to rise.",
                 "value_change_factor": [
                     "Balancing Autonomy and Stability"
@@ -5093,9 +5093,9 @@
                 "pair_factors": [
                     "personal_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "medium",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "Could cause such a deep rift that the relationship falls apart",
                 "value_change_factor": [
                     "Balancing Productivity with Emotional Support"
@@ -5114,9 +5114,9 @@
                     "social_factors",
                     "personal_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "medium",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "I would say this is somewhere around mild to medium, as it depends on how seriously the person considers this issue. At worst, it can result in a ruined relationship or a divorce, which is fairly serious. Not life threatening or something where people will go to jail or anything, but fairly serious, so I lean towards medium.",
                 "value_change_factor": [
                     "Desire for Progress and Efficiency",
@@ -5137,9 +5137,9 @@
                     "emotional_factors",
                     "personal_factors",
                     "social_factors",
-                    "romantic_relationship",
-                    "na",
-                    "medium",
+                    "Romantic Relationship",
+                    "N/A",
+                    "Medium",
                     "Balancing Autonomy and Stability",
                     "Balancing Productivity with Emotional Support",
                     "Desire for Progress and Efficiency",
@@ -5239,17 +5239,15 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "other-Inner conflict",
-                "other-oneself",
-                "other-self worth"
+                "Other"
             ],
             "Time Urgency": [
-                "implicit",
-                "na"
+                "Implicit",
+                "N/A"
             ],
             "Level_of_Consequence": [
-                "mild",
-                "medium"
+                "Mild",
+                "Medium"
             ],
             "annotator1": {
                 "pair": "Achievement and Universalism",
@@ -5257,9 +5255,9 @@
                     "emotional_factors",
                     "personal_factors"
                 ],
-                "social_context": "other-Inner conflict",
-                "time_urgency": "implicit",
-                "level_of_consequence": "mild",
+                "social_context": "Other",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "The person can work through this issue In their own mind and on their own time. It does not involve anyone else. It is something that may take time to accept and heal",
                 "value_change_factor": [
                     "Desire for Personal Excellence"
@@ -5277,9 +5275,9 @@
                     "emotional_factors",
                     "personal_factors"
                 ],
-                "social_context": "other-oneself",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Other",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "none, there is only self benefit",
                 "value_change_factor": [
                     "Reconciling External and Internal Goals"
@@ -5297,9 +5295,9 @@
                     "emotional_factors",
                     "personal_factors"
                 ],
-                "social_context": "other-self worth",
-                "time_urgency": "na",
-                "level_of_consequence": "medium",
+                "social_context": "Other",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "Being optimistic. Although they did not win, at least they finished",
                 "value_change_factor": [
                     "Focus on Measurable Success",
@@ -5319,13 +5317,13 @@
                     "Achievement and Self-direction",
                     "emotional_factors",
                     "personal_factors",
-                    "other-Inner conflict",
-                    "other-oneself",
-                    "other-self worth",
-                    "implicit",
-                    "na",
-                    "mild",
-                    "medium",
+                    "Other",
+                    "Other",
+                    "Other",
+                    "Implicit",
+                    "N/A",
+                    "Mild",
+                    "Medium",
                     "Desire for Personal Excellence",
                     "Reconciling External and Internal Goals",
                     "Focus on Measurable Success",
@@ -5347,12 +5345,7 @@
                     1,
                     2,
                     3,
-                    2,
-                    3,
-                    2,
-                    3,
-                    4,
-                    5,
+                    6,
                     6,
                     7,
                     8,
@@ -5378,14 +5371,9 @@
                     3,
                     2,
                     3,
-                    4,
-                    4,
-                    5,
-                    5,
                     6,
                     6,
                     7,
-                    8,
                     8,
                     9,
                     9,
@@ -5411,15 +5399,10 @@
                     1,
                     2,
                     2,
+                    3,
+                    3,
                     1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
+                    2,
                     1,
                     1,
                     1,
@@ -5447,16 +5430,16 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "family",
-                "workplace"
+                "Family",
+                "Workplace"
             ],
             "Time Urgency": [
-                "explicit",
-                "na",
-                "implicit"
+                "Explicit",
+                "N/A",
+                "Implicit"
             ],
             "Level_of_Consequence": [
-                "medium"
+                "Medium"
             ],
             "annotator1": {
                 "pair": "Achievement and Benevolence",
@@ -5464,9 +5447,9 @@
                     "social_factors",
                     "personal_factors"
                 ],
-                "social_context": "family",
-                "time_urgency": "explicit",
-                "level_of_consequence": "medium",
+                "social_context": "Family",
+                "time_urgency": "Explicit",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "If the person works at a reasonable workplace they should be able to take time off if it is necessary for family. Likely this conflict is just in this person's mind and is not really a big deal",
                 "value_change_factor": [
                     "Commitment to Career Goals"
@@ -5483,9 +5466,9 @@
                 "pair_factors": [
                     "personal_factors"
                 ],
-                "social_context": "workplace",
-                "time_urgency": "na",
-                "level_of_consequence": "medium",
+                "social_context": "Workplace",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "Could be straight fired for refusing",
                 "value_change_factor": [
                     "Balancing Career Obligations with Personal Needs"
@@ -5504,9 +5487,9 @@
                     "social_factors",
                     "moral_factors"
                 ],
-                "social_context": "workplace",
-                "time_urgency": "implicit",
-                "level_of_consequence": "medium",
+                "social_context": "Workplace",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "There could be repercussions over telling your company this",
                 "value_change_factor": [
                     "Balancing Career Obligations with Personal Needs"
@@ -5526,12 +5509,12 @@
                     "personal_factors",
                     "emotional_factors",
                     "moral_factors",
-                    "family",
-                    "workplace",
-                    "explicit",
-                    "na",
-                    "implicit",
-                    "medium",
+                    "Family",
+                    "Workplace",
+                    "Explicit",
+                    "N/A",
+                    "Implicit",
+                    "Medium",
                     "Commitment to Career Goals",
                     "Balancing Career Obligations with Personal Needs",
                     "balancing",
@@ -5638,15 +5621,15 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "romantic_relationship"
+                "Romantic Relationship"
             ],
             "Time Urgency": [
-                "explicit",
-                "na"
+                "Explicit",
+                "N/A"
             ],
             "Level_of_Consequence": [
-                "medium",
-                "mild"
+                "Medium",
+                "Mild"
             ],
             "annotator1": {
                 "pair": "Security and Stimulation",
@@ -5655,9 +5638,9 @@
                     "social_factors",
                     "personal_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "explicit",
-                "level_of_consequence": "medium",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "Explicit",
+                "level_of_consequence": "Medium",
                 "level_of_consequence_reason": "It is difficult to know the level of consequence since I don't know exactly what was done. Also, this has already occurred. The person would have needed to balance between a relationship and also what is acceptable in society",
                 "value_change_factor": [
                     "Commitment to Safety and Stability"
@@ -5675,9 +5658,9 @@
                     "emotional_factors",
                     "social_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "It's all in fun. Memory forever. Hopefully doesnt come back to haunt ya",
                 "value_change_factor": [
                     "Balancing Individuality with Cultural Norms"
@@ -5697,9 +5680,9 @@
                     "moral_factors",
                     "personal_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "I don't see any major consequence based on the amount of information given",
                 "value_change_factor": [
                     "Desire for Pleasure and Excitement",
@@ -5722,11 +5705,11 @@
                     "social_factors",
                     "personal_factors",
                     "moral_factors",
-                    "romantic_relationship",
-                    "explicit",
-                    "na",
-                    "medium",
-                    "mild",
+                    "Romantic Relationship",
+                    "Explicit",
+                    "N/A",
+                    "Medium",
+                    "Mild",
                     "Commitment to Safety and Stability",
                     "Balancing Individuality with Cultural Norms",
                     "Desire for Pleasure and Excitement",
@@ -5856,15 +5839,15 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "romantic_relationship"
+                "Romantic Relationship"
             ],
             "Time Urgency": [
-                "na",
-                "implicit"
+                "N/A",
+                "Implicit"
             ],
             "Level_of_Consequence": [
-                "mild",
-                "high"
+                "Mild",
+                "High"
             ],
             "annotator1": {
                 "pair": "Benevolence and Hedonism",
@@ -5872,9 +5855,9 @@
                     "emotional_factors",
                     "moral_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "may end the relationship, but its better than an abortion.",
                 "value_change_factor": [
                     "Desire for Pleasure and Intimacy"
@@ -5892,9 +5875,9 @@
                     "emotional_factors",
                     "personal_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "high",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "The refusal of sex can lead to serious issues within a relationship that is going to cause a breakup.",
                 "value_change_factor": [
                     "Balancing Independence with Relational Harmony"
@@ -5912,9 +5895,9 @@
                     "emotional_factors",
                     "social_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "implicit",
-                "level_of_consequence": "high",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "If they do not have sex, the relationship will likely end. They should think about different methods of contraception and come up with a solution together",
                 "value_change_factor": [
                     "Desire for Personal Autonomy"
@@ -5934,11 +5917,11 @@
                     "moral_factors",
                     "personal_factors",
                     "social_factors",
-                    "romantic_relationship",
-                    "na",
-                    "implicit",
-                    "mild",
-                    "high",
+                    "Romantic Relationship",
+                    "N/A",
+                    "Implicit",
+                    "Mild",
+                    "High",
                     "Desire for Pleasure and Intimacy",
                     "Balancing Independence with Relational Harmony",
                     "Desire for Personal Autonomy",
@@ -6044,25 +6027,25 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "stranger",
-                "acquaintance",
-                "romantic_relationship"
+                "Stranger",
+                "Acquaintance",
+                "Romantic Relationship"
             ],
             "Time Urgency": [
-                "na",
-                "implicit"
+                "N/A",
+                "Implicit"
             ],
             "Level_of_Consequence": [
-                "mild"
+                "Mild"
             ],
             "annotator1": {
                 "pair": "Conformity and Self-direction",
                 "pair_factors": [
                     "social_factors"
                 ],
-                "social_context": "stranger",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Stranger",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "Will result in not getting along with those who seek pity constantly. Maybe also make you look bad who feel pity for those types of people.",
                 "value_change_factor": [
                     "Balancing Social Expectations with Personal Values"
@@ -6080,9 +6063,9 @@
                     "emotional_factors",
                     "personal_factors"
                 ],
-                "social_context": "acquaintance",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Acquaintance",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "Having feelings like this is not going to cause you any issues. You have an opinion and many might not feel the same way, but it is really simple when you look at it.",
                 "value_change_factor": [
                     "Balancing Social Expectations with Personal Values"
@@ -6101,9 +6084,9 @@
                     "social_factors",
                     "personal_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "implicit",
-                "level_of_consequence": "mild",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "Even though this may be an issue for the person, they can easily turn off social media or block certain things from coming up in a feed",
                 "value_change_factor": [
                     "Discomfort with Norm Violations",
@@ -6122,12 +6105,12 @@
                     "social_factors",
                     "emotional_factors",
                     "personal_factors",
-                    "stranger",
-                    "acquaintance",
-                    "romantic_relationship",
-                    "na",
-                    "implicit",
-                    "mild",
+                    "Stranger",
+                    "Acquaintance",
+                    "Romantic Relationship",
+                    "N/A",
+                    "Implicit",
+                    "Mild",
                     "Balancing Social Expectations with Personal Values",
                     "Discomfort with Norm Violations",
                     "prioritization",
@@ -6234,15 +6217,15 @@
                 "Intrapersonal_Narrow"
             ],
             "Social Contexts": [
-                "romantic_relationship"
+                "Romantic Relationship"
             ],
             "Time Urgency": [
-                "na",
-                "implicit"
+                "N/A",
+                "Implicit"
             ],
             "Level_of_Consequence": [
-                "mild",
-                "high"
+                "Mild",
+                "High"
             ],
             "annotator1": {
                 "pair": "Security and Self-direction",
@@ -6250,9 +6233,9 @@
                     "emotional_factors",
                     "personal_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "mild",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "Mild",
                 "level_of_consequence_reason": "maybe the relationship isn't as great as you feel it is. Maybe something else is missing elsewhere.",
                 "value_change_factor": [
                     "Balancing Relationship Security with Individual Growth"
@@ -6269,9 +6252,9 @@
                 "pair_factors": [
                     "emotional_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "na",
-                "level_of_consequence": "high",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "N/A",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "It seems like you might not be in the right relationship if you are feeling this way. If you are not, then you will be really alone and also hurt your partner.",
                 "value_change_factor": [
                     "Desire for Emotional Stability",
@@ -6291,9 +6274,9 @@
                     "social_factors",
                     "personal_factors"
                 ],
-                "social_context": "romantic_relationship",
-                "time_urgency": "implicit",
-                "level_of_consequence": "high",
+                "social_context": "Romantic Relationship",
+                "time_urgency": "Implicit",
+                "level_of_consequence": "High",
                 "level_of_consequence_reason": "If they do not correct these inner conflicts, it can lead to problems in the relationship",
                 "value_change_factor": [
                     "Desire for Emotional Stability",
@@ -6312,11 +6295,11 @@
                     "emotional_factors",
                     "personal_factors",
                     "social_factors",
-                    "romantic_relationship",
-                    "na",
-                    "implicit",
-                    "mild",
-                    "high",
+                    "Romantic Relationship",
+                    "N/A",
+                    "Implicit",
+                    "Mild",
+                    "High",
                     "Balancing Relationship Security with Individual Growth",
                     "Desire for Emotional Stability",
                     "Need for Personal Exploration",
