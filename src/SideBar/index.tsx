@@ -131,11 +131,21 @@ export function SideBar(props: Props) {
                 {/* <Typography variant="subtitle2" className={classes.filterTitle}>
                     {typeName} : <Button variant="outlined" size="small" onClick={() => onClickFilter("all", typeName)}>{Object.values(tagsCollection).every(d => d) ? 'Unselect All' : 'Select All'}</Button>
                 </Typography> */}
-                <Tooltip title={renderDescriptionList(typeName)} classes={{ tooltip: classes.tooltip }}>
+                {/* <Tooltip title={renderDescriptionList(typeName)} classes={{ tooltip: classes.tooltip }}>
                     <Typography variant="subtitle2" className={classes.filterTitle}>
                         <span style={{ textDecoration: 'underline' }}>{typeName}</span> : <Button variant="outlined" size="small" onClick={() => onClickFilter("all", typeName)}>{Object.values(tagsCollection).every(d => d) ? 'Unselect All' : 'Select All'}</Button>
                     </Typography>
-                </Tooltip>
+                </Tooltip> */}
+                <Typography variant="subtitle2" className={classes.filterTitle}>
+                    <Tooltip title={renderDescriptionList(typeName)} classes={{ tooltip: classes.tooltip }}>
+                        <span style={{ textDecoration: 'underline' }}>{typeName}</span>
+                    </Tooltip>
+                    ： 
+                    <Button variant="outlined" size="small" onClick={() => onClickFilter("all", typeName)}>
+                        {Object.values(tagsCollection).every(d => d) ? 'Unselect All' : 'Select All'}
+                    </Button>
+                </Typography>
+
                 <div className={classes.filters}>
                     {Object.entries(tagsCollection).map(([tag, checked]) => (
                         <Chip
@@ -156,6 +166,7 @@ export function SideBar(props: Props) {
             </div>
         );
     };
+    console.log("tagfilters", tagFilters['Conflict Type']["Intrapersonal_Narrow"])
 
     const drawer = <div className={classes.drawerContainer}>
         <Toolbar />
@@ -193,9 +204,17 @@ export function SideBar(props: Props) {
         />
         <Divider /> */}
         <Typography className={classes.conflictInstruction}>
-            "Intrapersonal (conflicts within the individual): View as a first person perspective"<br />
+            {/* "Intrapersonal (conflicts within the individual): View as a first person perspective"<br />
             "Interpersonal (conflicts between individuals): View as a third person perspective"<br />
-            "Group (conflicts within or between groups): View as a third person perspective"
+            "Group (conflicts within or between groups): View as a third person perspective" */}
+            {(tagFilters['Conflict Type']["Intrapersonal_Narrow"] || tagFilters['Conflict Type']["Intrapersonal_Broad"]) && "Intrapersonal (conflicts within the individual): This analysis is first person perspective, where you consider the situation as though you are in the position of the person experiencing the conflict."}<br />
+            {(tagFilters['Conflict Type']["Interpersonal_Narrow"] || tagFilters['Conflict Type']["Interpersonal_Broad"]) && "Interpersonal (conflicts between individuals): The analysis should be from a third person perspective where both people’s conflicting values should be considered."}<br />
+            {(tagFilters['Conflict Type']["Group_Narrow"] || tagFilters['Conflict Type']["Group_Broad"]) && "Group (conflicts within or between groups): The analysis should be from third person perspective where both group’s conflicting values should be considered."}<br />      
+        </Typography>
+
+        <Typography className={classes.conflictInstruction2}>
+            "Narrow: Typically no extended backstory or few compounding factors; the scenario is short and direct."<br />
+            "Broad: Extended background, multiple stakeholders, or deep emotional stakes."       
         </Typography>
 
         <Divider />

@@ -49,7 +49,7 @@ export function TopBar(props: Props) {
     const classes = useStyles();
     const { title, preprint, github, topTheme, onProfileMenuOpen, handleDrawerToggle } = props;
 
-    const [modalOpen, setModalOpen] = useState(true); // Modal opens by default every time     '''change back to false later if needed'''
+    const [modalOpen, setModalOpen] = useState(false); // Modal opens by default every time     '''change back to false later if needed'''
     const [isChecked, setIsChecked] = useState(false);
 
     // // Load the checkbox state from localStorage to determine if it should be shown
@@ -174,22 +174,9 @@ export function TopBar(props: Props) {
                     <Typography id="instruction-modal-description">
                         <ul>
                             <li>We are interested in understanding how humans resolve internal conflicts and how human values play a role in conflict resolution.</li>
-                            <li>Please read the instructions and click on the two checkbox.</li>
-                            <li>For your first sub task - you will be presented with a scenario (in which a human value conflict is experienced) and three conflicting value pairs based on the scenario.
-                                <ol>
-                                    <li><strong>For each scenario</strong>, The "Topic" section contains the main conclusion of the whole scene, and the "Background" section contains the background of the story in which the conclusion takes place. Please read the "Background" section carefully before doing the tasks!</li>
-                                    <li>Your first task is to rank the three conflicting human value pairs, with the first one being the one you think is most relevant to the given scenario.</li>
-                                    <li>After found the most relevant conflicting pair according to you, you will be asked to answer some followup questions related to the scenario itself and the first pair you chose.</li>
-                                    <li>On the right hand side in Pink, we display a brief definition and example for each human value. You can hover to learn more about each human value.</li>
-                                </ol>
-                            </li>
-                            <li>For the second sub-task - now that you have ranked the human value pairs, given the scenario and the most relevant conflicting value pair according to you.
-                                <ol>
-                                    <li>Your second task is to first read the explanation best for all six conflict resolution strategies, and select three most appropriate conflict resolution strategies from the six available options.</li>
-                                    <li>Rank them in order of Best Strategy, Second Best Strategy, and Third Best Strategy, and you will be asked to answer some followup questions.</li>
-                                    <li>On the right hand side in Green, we display a brief definition for each resolution strategy. You can hover to learn more about each conflict resolution strategy.</li>
-                                </ol>
-                            </li>
+                            <li>Please read the instructions and click on the checkbox.</li>
+                            <li>You will see the annotations by 3 annotators, including some follow-up insights related to the scenario itself and the primary conflicting pair.</li>
+                            <li><strong>Click on each scenario to view a detailed Sankey diagram, which visually represents the flow and relationships between the conflicting human values identified in the scenario.</strong></li>
                             <li>Everything underlined throughout the survey can be hovered over to see detailed explanations.</li>
                         </ul>
                         {/* <Typography component="div" style={{ fontWeight: 'bold' }}>

@@ -150,6 +150,23 @@ export const useStyles = makeStyles((theme: Theme) =>
                 boxShadow: '0px 5px 15px rgba(0,0,0,0.3)' 
             }
         },
+        sankeyButton: {
+            marginTop: 8,
+            marginRight: 20,
+            padding: '10px 20px', // Increases the button size
+            fontSize: '1rem', // Larger text
+            color: theme.palette.common.white, 
+            backgroundColor: theme.palette.primary.main, 
+            borderRadius: '20px',
+            '&:hover': { 
+                backgroundColor: theme.palette.primary.dark, // Darken on hover
+                boxShadow: '0px 2px 10px rgba(0,0,0,0.2)'
+            },
+            '&:active': { 
+                backgroundColor: theme.palette.primary.dark,
+                boxShadow: '0px 5px 15px rgba(0,0,0,0.3)'
+            }
+        }
 
         // highlight: {
         //     backgroundColor: '#f5db53',

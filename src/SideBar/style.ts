@@ -90,7 +90,13 @@ export const useStyles = makeStyles((theme: Theme) =>
         conflictInstruction: {
             color: '#ad3e48',
             margin: '12px 0',
-            fontSize: '16px',
+            fontSize: '14px',
+            fontWeight: 'bold'
+        },
+        conflictInstruction2: {
+            color: '#7bad3e',
+            margin: '12px 0',
+            fontSize: '14px',
             fontWeight: 'bold'
         }
     })

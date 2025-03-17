@@ -68,7 +68,60 @@ export function Papers(props: Props) {
         );
     };
 
-    const view_sankey = (currentPaper) => {
+    const view_sankey_human = (currentPaper) => {
+        if (!currentPaper) return null; 
+    
+        const columnLabels = [
+            "conflict pairs", "factors of pair choice", "social context",
+            "time urgency", "level of consequence", "value change factors",
+            "resolution strategy", "choice influences", "strategy change factors"
+        ];
+
+        const data = [{
+            type: "sankey",
+            orientation: "h",
+            node: {
+                pad: 25,
+                thickness: 20,
+                line: {
+                    color: "black",
+                    width: 0.5
+                },
+                label: currentPaper.labels["one_d_labels"],
+            },
+            link: {
+                source: currentPaper.sankey["source"],
+                target: currentPaper.sankey["target"],
+                value: currentPaper.sankey["value"],
+                color: 'rgba(238, 235, 195, 0.5)'
+            }
+        }];
+
+        // Generate annotations to label each column
+        const numColumns = columnLabels.length;
+        const annotations = columnLabels.map((label, index) => ({
+            x: index < 6 ? (index / (numColumns - 1.2)) - 0.025 : (index / (numColumns - 1.2)) + 0.025, 
+            y: -0.1, 
+            xref: "paper", 
+            yref: "paper",
+            text: label,
+            showarrow: false,
+            font: { size: 14, color: "black" },
+        }));
+    
+        const layout = {
+            title: `Sankey Diagram: ${currentPaper.name}`,
+            font: {
+                size: 12
+            },
+            annotations: annotations
+        };
+    
+        return <Plot data={data} layout={layout} style={{ width: "100%", height: "100%" }} />;
+    }
+    
+
+    const view_sankey_model = (currentPaper) => {
         if (!currentPaper) return null; 
     
         const data = [{
@@ -98,7 +151,8 @@ export function Papers(props: Props) {
             },
         };
     
-        return <Plot data={data} layout={layout} style={{ width: "100%", height: "100%" }} />;
+        // return <Plot data={data} layout={layout} style={{ width: "100%", height: "100%" }} />;
+        return "Coming Soon!";
     }
 
 
@@ -116,17 +170,40 @@ export function Papers(props: Props) {
             console.log("Annotator data not found");
             return "Data not found";
         }
+
+        const chain_colors = [
+            // "rgb(255, 179, 186)",   
+            // "rgb(255, 223, 186)",   
+            // "rgb(255, 255, 186)",   
+            // "rgb(186, 255, 201)",   
+            // "rgb(186, 255, 255)",   
+            // "rgb(186, 225, 255)",   
+            // "rgb(255, 186, 255)"  
+            
+            "rgb(187, 110, 142)",   
+            "rgb(217, 103, 116)",   
+            "rgb(244, 109, 67)",   
+            "rgb(253, 174, 97)",   
+            "rgb(254, 224, 139)",   
+            "rgb(255, 255, 191)",   
+            "rgb(230, 245, 152)",   
+            "rgb(171, 221, 164)",   
+            "rgb(102, 194, 165)",   
+            "rgb(115, 165, 196)",   
+            "rgb(145, 139, 171)"    
+        ];
     
         const chain = Object.entries(annotatorData)
             // .map(([key, value]) => `${key}: ${Array.isArray(value) ? value.join(', ') : value}`)
             // .map(([key, value]) => `${Array.isArray(value) ? value.join(', ') : value}`)
             // .join(' -> ');
 
-            .map(([key, value]) => {
+            .map(([key, value], index) => {
                 const displayValue = Array.isArray(value) ? value.join(', ') : value;
                 // return `<span style={{backgroundColor: 'yellow'}}>${displayValue}</span>`;
                 // return `<span class="highlight">"${displayValue}"</span>`;
-                return `<span style="background-color:rgb(247, 235, 173); box-shadow: 0px 2px 5px rgba(0,0,0,0.2); font-weight: bold; font-size: 16px">"${displayValue}"</span>`;
+                const chain_color = chain_colors[index % chain_colors.length]
+                return `<span style="background-color:${chain_color}; box-shadow: 0px 2px 5px rgba(0,0,0,0.2); font-weight: bold; font-size: 16px">"${displayValue}"</span>`;
             })
             .join(' -> ');
         
@@ -137,12 +214,19 @@ export function Papers(props: Props) {
         // return chain;
     }   
 
+    // Sankey part: human vs model
+    const [viewType, setViewType] = useState('human');
+
+    const handleViewChange = (type) => {
+        setViewType(type);
+    };
+
 
     return (
         <Grid container className={classes.root} spacing={2}>
             <Grid item xs={12}>
                 <Grid container justify="center" spacing={2}>
-                    {papers.map((paper, i) => (
+                    {papers.slice(1).map((paper, i) => (                   //skip the test paper
                         <Grid key={i} item>
                             <Card className={classes.card}>
                                 <CardContent className={classes.cardContent} onClick={() => onClickPaper(paper)}>
@@ -243,10 +327,20 @@ export function Papers(props: Props) {
             >
                 <Fade in={modalOpen}>
                     <div className={classes.modal}>
-                        <h1>Scenario: {currentPaper?.name}</h1>
+                        {/* <h1>Scenario: {currentPaper?.name}</h1> */}
 
                         {/* <Typography variant="h4">Scenario: {currentPaper?.name}</Typography> */}
-                        {view_sankey(currentPaper)}
+                        {/* {view_sankey_human(currentPaper)} */}
+
+                        <Typography variant="h4">Scenario: {currentPaper?.name}</Typography>
+                        <Button onClick={() => handleViewChange('human')} className={classes.sankeyButton}>
+                            View Human
+                        </Button>
+                        <Button onClick={() => handleViewChange('model')} className={classes.sankeyButton}>
+                            View Model
+                        </Button>
+                        {viewType === 'human' ? view_sankey_human(currentPaper) : view_sankey_model(currentPaper)}
+
 
 
                         <Button onClick={closeModal} color="secondary">Close</Button>
